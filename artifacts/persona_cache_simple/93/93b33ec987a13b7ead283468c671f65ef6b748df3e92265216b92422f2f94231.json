@@ -1,0 +1,13 @@
+{
+  "text_hash": "93b33ec987a13b7ead283468c671f65ef6b748df3e92265216b92422f2f94231",
+  "profile_preview": "Loan Purpose: car | Loan Term:  60 months | Credit Grade: C (C1) | Employment Length: 3 years | Home Ownership: OWN | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5769538156634555,
+    "conscientiousness": 0.5298039611731199,
+    "extraversion": 0.6763947253759007,
+    "agreeableness": 0.75,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.2041159
+}

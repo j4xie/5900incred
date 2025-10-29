@@ -1,0 +1,13 @@
+{
+  "text_hash": "374277404d0ab4287fb8d7565b0279a369d5ceed442022340b737c5c405bd89f",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  36 months | Credit Grade: B (B3) | Employment Length: 1 year | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.30094457610997943,
+    "extraversion": 0.4989142023257246,
+    "agreeableness": 0.3555065177743105,
+    "neuroticism": 0.41341870590425533
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.749125
+}

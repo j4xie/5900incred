@@ -1,0 +1,13 @@
+{
+  "text_hash": "6414e81f604d88cd364523d309cade0ded75890462ce59ef56c3dc79cf37180e",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: B (B2) | Employment Length: nan | Home Ownership: OWN | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3909440113676116,
+    "conscientiousness": 0.37618308080737084,
+    "extraversion": 0.25,
+    "agreeableness": 0.25,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.1449962
+}

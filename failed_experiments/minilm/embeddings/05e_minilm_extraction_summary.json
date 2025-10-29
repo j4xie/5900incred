@@ -1,0 +1,32 @@
+{
+  "phase": "05e - Extract MiniLM-L12-v2 Embeddings",
+  "timestamp": "2025-10-29T12:40:10.159950",
+  "model": "sentence-transformers/all-MiniLM-L12-v2",
+  "model_parameters": "33M",
+  "embedding_dimension": 384,
+  "extraction_method": "HF Inference API (InferenceClient) + Mean Pooling",
+  "total_samples": 500,
+  "success_count": 500,
+  "error_count": 0,
+  "success_rate": "100.00%",
+  "processing_time_seconds": 557.1241648197174,
+  "processing_time_minutes": 9.28540274699529,
+  "samples_per_second": 0.8974660077108619,
+  "embedding_file": "../minilm_embeddings_500.npy",
+  "embedding_statistics": {
+    "mean": -0.0005735981394536793,
+    "std": 0.051027812063694,
+    "min": -0.21536502242088318,
+    "max": 0.20822478830814362,
+    "non_zero_embeddings": 500
+  },
+  "comparison_with_bge": {
+    "bge_parameters": "326M",
+    "minilm_parameters": "33M",
+    "bge_dimensions": 1024,
+    "minilm_dimensions": 384,
+    "parameter_ratio": "MiniLM is 10x smaller",
+    "dimension_ratio": "MiniLM has 2.7x fewer dimensions",
+    "expected_comparison": "MiniLM is compact but efficient, good for rapid experimentation"
+  }
+}

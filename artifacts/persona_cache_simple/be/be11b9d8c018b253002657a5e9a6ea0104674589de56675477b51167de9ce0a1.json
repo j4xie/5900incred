@@ -1,0 +1,13 @@
+{
+  "text_hash": "be11b9d8c018b253002657a5e9a6ea0104674589de56675477b51167de9ce0a1",
+  "profile_preview": "Loan Purpose: car | Loan Term:  36 months | Credit Grade: B (B3) | Employment Length: < 1 year | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.7424579767376319,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.321928
+}

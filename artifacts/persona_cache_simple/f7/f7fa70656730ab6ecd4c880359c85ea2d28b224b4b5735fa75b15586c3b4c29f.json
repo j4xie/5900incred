@@ -1,0 +1,13 @@
+{
+  "text_hash": "f7fa70656730ab6ecd4c880359c85ea2d28b224b4b5735fa75b15586c3b4c29f",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  60 months | Credit Grade: C (C2) | Employment Length: 10+ years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.40308638997447827,
+    "extraversion": 0.75,
+    "agreeableness": 0.35071364844933006,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.795073
+}

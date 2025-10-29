@@ -1,0 +1,13 @@
+{
+  "text_hash": "50e262730572ea2c1871951d754894a9de85a960e36cefd9b5586ac55229fa3b",
+  "profile_preview": "Loan Purpose: car | Loan Term:  36 months | Credit Grade: A (A2) | Employment Length: 3 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3159543544324009,
+    "conscientiousness": 0.25,
+    "extraversion": 0.25,
+    "agreeableness": 0.45813874375497426,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.889771
+}

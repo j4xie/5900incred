@@ -1,0 +1,13 @@
+{
+  "text_hash": "3a8fbb3aa0dcffa514b97409edd25da0564c28835d0d33d1294be4e88cc3060d",
+  "profile_preview": "Loan Purpose: debt_consolidation | Loan Term:  36 months | Credit Grade: B (B1) | Employment Length: 6 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.6283721713415282,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.33709958273384244
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.726559
+}

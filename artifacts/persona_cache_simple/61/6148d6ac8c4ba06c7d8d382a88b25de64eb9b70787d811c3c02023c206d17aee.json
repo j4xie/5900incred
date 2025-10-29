@@ -1,0 +1,13 @@
+{
+  "text_hash": "6148d6ac8c4ba06c7d8d382a88b25de64eb9b70787d811c3c02023c206d17aee",
+  "profile_preview": "Loan Purpose: debt_consolidation | Loan Term:  60 months | Credit Grade: E (E5) | Employment Length: 8 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3800176783418324,
+    "conscientiousness": 0.548028971196159,
+    "extraversion": 0.4904360870109955,
+    "agreeableness": 0.5339716613604621,
+    "neuroticism": 0.3075212853279713
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.7559612
+}

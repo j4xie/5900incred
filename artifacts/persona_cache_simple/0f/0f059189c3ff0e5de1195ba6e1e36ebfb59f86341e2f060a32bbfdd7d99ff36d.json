@@ -1,0 +1,13 @@
+{
+  "text_hash": "0f059189c3ff0e5de1195ba6e1e36ebfb59f86341e2f060a32bbfdd7d99ff36d",
+  "profile_preview": "Loan Purpose: car | Loan Term:  36 months | Credit Grade: E (E1) | Employment Length: 9 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.75,
+    "extraversion": 0.75,
+    "agreeableness": 0.75,
+    "neuroticism": 0.7094653967557162
+  },
+  "method": "fallback",
+  "timestamp": 1759346997.669139
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "76c860bfe605ac56353ab19cbbd03b8fb7e3efdfe24bcc87d2989ff9e9c38e88",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: C (C1) | Employment Length: < 1 year | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.4639950244370836,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.733646128264639,
+    "neuroticism": 0.7183217927157697
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.818378
+}

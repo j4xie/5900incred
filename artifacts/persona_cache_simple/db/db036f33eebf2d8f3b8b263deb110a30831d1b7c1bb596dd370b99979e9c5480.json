@@ -1,0 +1,13 @@
+{
+  "text_hash": "db036f33eebf2d8f3b8b263deb110a30831d1b7c1bb596dd370b99979e9c5480",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: A (A5) | Employment Length: 5 years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.5121628931984684
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.360011
+}

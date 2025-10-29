@@ -1,0 +1,13 @@
+{
+  "text_hash": "88a7037fac1611d14de805edefd562c4cf97d0b5946ce1c9b2e3bf54076bc185",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: D (D3) | Employment Length: 6 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5337984262811482,
+    "conscientiousness": 0.6722117554564522,
+    "extraversion": 0.3043216423374418,
+    "agreeableness": 0.75,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.933194
+}

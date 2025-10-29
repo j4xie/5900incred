@@ -1,0 +1,525 @@
+{
+  "phase": "05f - Train Elastic Net Models (Gemma-2-9B, MPNet Embeddings)",
+  "timestamp": "2025-10-29T13:12:59.879922",
+  "llm_model": "Gemma-2-9B",
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "embedding_parameters": "110M",
+  "embedding_dimension": 768,
+  "training_samples": 400,
+  "test_samples": 100,
+  "model_type": "Elastic Net (L1+L2 Regularization)",
+  "hyperparameters": {
+    "alphas": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0,
+      10000.0
+    ],
+    "l1_ratios": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "cv_folds": 5
+  },
+  "ocean_dimensions": [
+    "openness",
+    "conscientiousness",
+    "extraversion",
+    "agreeableness",
+    "neuroticism"
+  ],
+  "model_file": "../elasticnet_models_mpnet_gemma.pkl",
+  "training_results": {
+    "openness": {
+      "train_r2": -1.2390088954816747e-13,
+      "test_r2": -0.02130645587561686,
+      "train_rmse": 0.07319110260134536,
+      "test_rmse": 0.05365689982763972,
+      "train_mae": 0.04728751158714295,
+      "test_mae": 0.039385015964508045,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 767,
+          "coefficient": -0.0
+        },
+        {
+          "index": 766,
+          "coefficient": 0.0
+        },
+        {
+          "index": 261,
+          "coefficient": 0.0
+        },
+        {
+          "index": 260,
+          "coefficient": -0.0
+        },
+        {
+          "index": 259,
+          "coefficient": 0.0
+        },
+        {
+          "index": 258,
+          "coefficient": 0.0
+        },
+        {
+          "index": 257,
+          "coefficient": -0.0
+        },
+        {
+          "index": 256,
+          "coefficient": 0.0
+        },
+        {
+          "index": 255,
+          "coefficient": 0.0
+        },
+        {
+          "index": 254,
+          "coefficient": 0.0
+        },
+        {
+          "index": 253,
+          "coefficient": -0.0
+        },
+        {
+          "index": 252,
+          "coefficient": -0.0
+        },
+        {
+          "index": 251,
+          "coefficient": 0.0
+        },
+        {
+          "index": 250,
+          "coefficient": -0.0
+        },
+        {
+          "index": 249,
+          "coefficient": 0.0
+        },
+        {
+          "index": 248,
+          "coefficient": 0.0
+        },
+        {
+          "index": 247,
+          "coefficient": -0.0
+        },
+        {
+          "index": 246,
+          "coefficient": 0.0
+        },
+        {
+          "index": 245,
+          "coefficient": 0.0
+        },
+        {
+          "index": 244,
+          "coefficient": -0.0
+        }
+      ],
+      "model_intercept": 0.28324997425079346
+    },
+    "conscientiousness": {
+      "train_r2": -1.3322676295501878e-15,
+      "test_r2": -0.00011088477870058178,
+      "train_rmse": 0.11023774024806574,
+      "test_rmse": 0.08309943219827517,
+      "train_mae": 0.06951125240325925,
+      "test_mae": 0.051047502517700176,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 767,
+          "coefficient": -0.0
+        },
+        {
+          "index": 766,
+          "coefficient": 0.0
+        },
+        {
+          "index": 261,
+          "coefficient": 0.0
+        },
+        {
+          "index": 260,
+          "coefficient": -0.0
+        },
+        {
+          "index": 259,
+          "coefficient": 0.0
+        },
+        {
+          "index": 258,
+          "coefficient": 0.0
+        },
+        {
+          "index": 257,
+          "coefficient": -0.0
+        },
+        {
+          "index": 256,
+          "coefficient": -0.0
+        },
+        {
+          "index": 255,
+          "coefficient": -0.0
+        },
+        {
+          "index": 254,
+          "coefficient": 0.0
+        },
+        {
+          "index": 253,
+          "coefficient": 0.0
+        },
+        {
+          "index": 252,
+          "coefficient": -0.0
+        },
+        {
+          "index": 251,
+          "coefficient": 0.0
+        },
+        {
+          "index": 250,
+          "coefficient": -0.0
+        },
+        {
+          "index": 249,
+          "coefficient": -0.0
+        },
+        {
+          "index": 248,
+          "coefficient": -0.0
+        },
+        {
+          "index": 247,
+          "coefficient": -0.0
+        },
+        {
+          "index": 246,
+          "coefficient": -0.0
+        },
+        {
+          "index": 245,
+          "coefficient": 0.0
+        },
+        {
+          "index": 244,
+          "coefficient": 0.0
+        }
+      ],
+      "model_intercept": 0.5946249961853027
+    },
+    "extraversion": {
+      "train_r2": -8.881784197001252e-16,
+      "test_r2": -0.01902588607695299,
+      "train_rmse": 0.09146584061823303,
+      "test_rmse": 0.07318469824505985,
+      "train_mae": 0.07261000072956086,
+      "test_mae": 0.05880000114440917,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 767,
+          "coefficient": 0.0
+        },
+        {
+          "index": 766,
+          "coefficient": -0.0
+        },
+        {
+          "index": 261,
+          "coefficient": 0.0
+        },
+        {
+          "index": 260,
+          "coefficient": -0.0
+        },
+        {
+          "index": 259,
+          "coefficient": -0.0
+        },
+        {
+          "index": 258,
+          "coefficient": -0.0
+        },
+        {
+          "index": 257,
+          "coefficient": -0.0
+        },
+        {
+          "index": 256,
+          "coefficient": -0.0
+        },
+        {
+          "index": 255,
+          "coefficient": -0.0
+        },
+        {
+          "index": 254,
+          "coefficient": 0.0
+        },
+        {
+          "index": 253,
+          "coefficient": -0.0
+        },
+        {
+          "index": 252,
+          "coefficient": -0.0
+        },
+        {
+          "index": 251,
+          "coefficient": -0.0
+        },
+        {
+          "index": 250,
+          "coefficient": 0.0
+        },
+        {
+          "index": 249,
+          "coefficient": -0.0
+        },
+        {
+          "index": 248,
+          "coefficient": 0.0
+        },
+        {
+          "index": 247,
+          "coefficient": -0.0
+        },
+        {
+          "index": 246,
+          "coefficient": 0.0
+        },
+        {
+          "index": 245,
+          "coefficient": 0.0
+        },
+        {
+          "index": 244,
+          "coefficient": 0.0
+        }
+      ],
+      "model_intercept": 0.27799999713897705
+    },
+    "agreeableness": {
+      "train_r2": 0.10321026632438479,
+      "test_r2": -0.07796887975834332,
+      "train_rmse": 0.11743002011271919,
+      "test_rmse": 0.11799595777381004,
+      "train_mae": 0.09122975556552408,
+      "test_mae": 0.08600265192985533,
+      "best_alpha": 0.1,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 22,
+      "sparsity_percent": 97.13541666666666,
+      "top_20_features": [
+        {
+          "index": 194,
+          "coefficient": -0.011218867264688015
+        },
+        {
+          "index": 685,
+          "coefficient": 0.010060732252895832
+        },
+        {
+          "index": 254,
+          "coefficient": 0.005188982468098402
+        },
+        {
+          "index": 89,
+          "coefficient": -0.0043447124771773815
+        },
+        {
+          "index": 241,
+          "coefficient": -0.004235933534801006
+        },
+        {
+          "index": 66,
+          "coefficient": -0.0033012726344168186
+        },
+        {
+          "index": 733,
+          "coefficient": -0.002991348272189498
+        },
+        {
+          "index": 370,
+          "coefficient": 0.0028281493578106165
+        },
+        {
+          "index": 4,
+          "coefficient": 0.0025769220665097237
+        },
+        {
+          "index": 172,
+          "coefficient": -0.001467494759708643
+        },
+        {
+          "index": 693,
+          "coefficient": -0.0009928952204063535
+        },
+        {
+          "index": 502,
+          "coefficient": -0.0008771134889684618
+        },
+        {
+          "index": 689,
+          "coefficient": 0.0007946381811052561
+        },
+        {
+          "index": 416,
+          "coefficient": 0.0007874047150835395
+        },
+        {
+          "index": 739,
+          "coefficient": 0.0007643644930794835
+        },
+        {
+          "index": 591,
+          "coefficient": -0.0005836639902554452
+        },
+        {
+          "index": 750,
+          "coefficient": -0.0003623754600994289
+        },
+        {
+          "index": 666,
+          "coefficient": 0.00025591172743588686
+        },
+        {
+          "index": 711,
+          "coefficient": -0.00024348223814740777
+        },
+        {
+          "index": 683,
+          "coefficient": 0.00017169199418276548
+        }
+      ],
+      "model_intercept": 0.5073750019073486
+    },
+    "neuroticism": {
+      "train_r2": -2.220446049250313e-15,
+      "test_r2": -0.01049419953034647,
+      "train_rmse": 0.1471257965144116,
+      "test_rmse": 0.1668172645767404,
+      "train_mae": 0.09679000453650952,
+      "test_mae": 0.10028000450134276,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 767,
+          "coefficient": 0.0
+        },
+        {
+          "index": 766,
+          "coefficient": 0.0
+        },
+        {
+          "index": 261,
+          "coefficient": -0.0
+        },
+        {
+          "index": 260,
+          "coefficient": -0.0
+        },
+        {
+          "index": 259,
+          "coefficient": -0.0
+        },
+        {
+          "index": 258,
+          "coefficient": -0.0
+        },
+        {
+          "index": 257,
+          "coefficient": -0.0
+        },
+        {
+          "index": 256,
+          "coefficient": 0.0
+        },
+        {
+          "index": 255,
+          "coefficient": -0.0
+        },
+        {
+          "index": 254,
+          "coefficient": -0.0
+        },
+        {
+          "index": 253,
+          "coefficient": -0.0
+        },
+        {
+          "index": 252,
+          "coefficient": 0.0
+        },
+        {
+          "index": 251,
+          "coefficient": 0.0
+        },
+        {
+          "index": 250,
+          "coefficient": 0.0
+        },
+        {
+          "index": 249,
+          "coefficient": 0.0
+        },
+        {
+          "index": 248,
+          "coefficient": -0.0
+        },
+        {
+          "index": 247,
+          "coefficient": 0.0
+        },
+        {
+          "index": 246,
+          "coefficient": 0.0
+        },
+        {
+          "index": 245,
+          "coefficient": 0.0
+        },
+        {
+          "index": 244,
+          "coefficient": -0.0
+        }
+      ],
+      "model_intercept": 0.20200000703334808
+    }
+  },
+  "summary_metrics": {
+    "avg_test_r2": -0.025781261203992045,
+    "avg_test_rmse": 0.09895085052430504,
+    "avg_test_mae": 0.0671030352115631,
+    "min_test_r2": -0.07796887975834332,
+    "max_test_r2": -0.00011088477870058178,
+    "avg_sparsity_percent": 99.42708333333333
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "8f829a4267890ac37f48df0034b31bf9c9a64599fb0042f7b7da280ba2ec2474",
+  "profile_preview": "Loan Purpose: renewable_energy | Loan Term:  36 months | Credit Grade: A (A1) | Employment Length: 7 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5605865871907646,
+    "conscientiousness": 0.4044348456441506,
+    "extraversion": 0.49720567476404964,
+    "agreeableness": 0.25,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.1238348
+}

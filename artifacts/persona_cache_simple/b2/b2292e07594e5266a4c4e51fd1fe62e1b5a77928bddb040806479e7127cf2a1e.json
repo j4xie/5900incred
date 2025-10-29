@@ -1,0 +1,13 @@
+{
+  "text_hash": "b2292e07594e5266a4c4e51fd1fe62e1b5a77928bddb040806479e7127cf2a1e",
+  "profile_preview": "Loan Purpose: home_improvement | Loan Term:  36 months | Credit Grade: A (A4) | Employment Length: 10+ years | Home Ownership: OWN | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.6959408539570731,
+    "conscientiousness": 0.34885134695769554,
+    "extraversion": 0.6436293794875102,
+    "agreeableness": 0.75,
+    "neuroticism": 0.7095866894138946
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.898103
+}

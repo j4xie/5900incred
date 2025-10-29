@@ -1,0 +1,13 @@
+{
+  "text_hash": "5e63c0c2d414f728f17deb8bf0377de148c22ea720844dac19a9489f57733143",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  36 months | Credit Grade: A (A4) | Employment Length: 5 years | Home Ownership: OWN | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.36870960946397613,
+    "conscientiousness": 0.75,
+    "extraversion": 0.75,
+    "agreeableness": 0.75,
+    "neuroticism": 0.28421298584067567
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.268726
+}

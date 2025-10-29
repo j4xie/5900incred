@@ -1,0 +1,13 @@
+{
+  "text_hash": "59a5fe49724d6d44fba753bfa9f66210988ff09572477fc28102f9f4c2ba0cbe",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  36 months | Credit Grade: C (C2) | Employment Length: 3 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3501891068532572,
+    "conscientiousness": 0.44649393960053424,
+    "extraversion": 0.75,
+    "agreeableness": 0.6639157572444332,
+    "neuroticism": 0.5959463467812041
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.187553
+}

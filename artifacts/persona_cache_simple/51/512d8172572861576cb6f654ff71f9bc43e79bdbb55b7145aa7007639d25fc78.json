@@ -1,0 +1,13 @@
+{
+  "text_hash": "512d8172572861576cb6f654ff71f9bc43e79bdbb55b7145aa7007639d25fc78",
+  "profile_preview": "Loan Purpose: home_improvement | Loan Term:  60 months | Credit Grade: F (F2) | Employment Length: < 1 year | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3171006111235126,
+    "conscientiousness": 0.3404599035485787,
+    "extraversion": 0.4246667820086393,
+    "agreeableness": 0.75,
+    "neuroticism": 0.26525282004504763
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.063221
+}

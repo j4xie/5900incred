@@ -1,0 +1,34 @@
+{
+  "phase": "05e - Extract MPNet-base-v2 Embeddings",
+  "timestamp": "2025-10-29T13:11:36.150883",
+  "model": "sentence-transformers/all-mpnet-base-v2",
+  "model_parameters": "110M",
+  "embedding_dimension": 768,
+  "extraction_method": "HF Inference API (InferenceClient) + Mean Pooling",
+  "total_samples": 500,
+  "success_count": 500,
+  "error_count": 0,
+  "success_rate": "100.00%",
+  "processing_time_seconds": 326.53772616386414,
+  "processing_time_minutes": 5.442295436064402,
+  "samples_per_second": 1.5312166403372593,
+  "embedding_file": "../mpnet_embeddings_500.npy",
+  "embedding_statistics": {
+    "mean": -0.0002619049628265202,
+    "std": 0.036083441227674484,
+    "min": -0.211687833070755,
+    "max": 0.17882640659809113,
+    "non_zero_embeddings": 500
+  },
+  "comparison_with_other_models": {
+    "minilm_parameters": "33M",
+    "mpnet_parameters": "110M",
+    "bge_parameters": "326M",
+    "minilm_dimensions": 384,
+    "mpnet_dimensions": 768,
+    "bge_dimensions": 1024,
+    "parameter_ratio": "MPNet is 3.3x larger than MiniLM, 3x smaller than BGE",
+    "dimension_ratio": "MPNet has 2x MiniLM dimensions, 0.75x BGE dimensions",
+    "expected_comparison": "MPNet is the official sentence-transformers recommendation for best balance"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "d1cf42214ff465682d2fe2d617ca515067c5eb080c18f952d9a919df4f757abf",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: C (C5) | Employment Length: < 1 year | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.3123229388874776,
+    "extraversion": 0.25,
+    "agreeableness": 0.25,
+    "neuroticism": 0.405363740493861
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.354214
+}

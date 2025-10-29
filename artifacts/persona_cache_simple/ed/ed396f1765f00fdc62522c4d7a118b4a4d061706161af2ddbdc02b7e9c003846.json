@@ -1,0 +1,13 @@
+{
+  "text_hash": "ed396f1765f00fdc62522c4d7a118b4a4d061706161af2ddbdc02b7e9c003846",
+  "profile_preview": "Loan Purpose: vacation | Loan Term:  36 months | Credit Grade: A (A4) | Employment Length: 2 years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.3981943047601251,
+    "extraversion": 0.3840663613248771,
+    "agreeableness": 0.4768302018001746,
+    "neuroticism": 0.30087417510824144
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.643072
+}

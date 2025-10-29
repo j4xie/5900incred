@@ -1,0 +1,13 @@
+{
+  "text_hash": "ea724b542357ba0d98d0bbfa69d4b836c4e6a05b9f2f76790c30c9b4fb85f3d1",
+  "profile_preview": "Loan Purpose: car | Loan Term:  60 months | Credit Grade: F (F1) | Employment Length: 10+ years | Home Ownership: OWN | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.25,
+    "extraversion": 0.5969350325402186,
+    "agreeableness": 0.4134020932049961,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.955806
+}

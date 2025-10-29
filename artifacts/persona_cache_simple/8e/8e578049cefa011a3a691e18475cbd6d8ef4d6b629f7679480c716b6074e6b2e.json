@@ -1,0 +1,13 @@
+{
+  "text_hash": "8e578049cefa011a3a691e18475cbd6d8ef4d6b629f7679480c716b6074e6b2e",
+  "profile_preview": "Loan Purpose: major_purchase | Loan Term:  60 months | Credit Grade: C (C1) | Employment Length: nan | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5560226611690648,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.2787588493150563,
+    "neuroticism": 0.5584234424304272
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.438304
+}

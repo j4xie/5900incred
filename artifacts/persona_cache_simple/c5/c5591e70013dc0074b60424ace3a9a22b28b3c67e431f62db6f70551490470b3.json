@@ -1,0 +1,13 @@
+{
+  "text_hash": "c5591e70013dc0074b60424ace3a9a22b28b3c67e431f62db6f70551490470b3",
+  "profile_preview": "Loan Purpose: other | Loan Term:  60 months | Credit Grade: D (D3) | Employment Length: 10+ years | Home Ownership: OWN | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.25,
+    "extraversion": 0.2944375449545769,
+    "agreeableness": 0.75,
+    "neuroticism": 0.6974370721023151
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.8679261
+}

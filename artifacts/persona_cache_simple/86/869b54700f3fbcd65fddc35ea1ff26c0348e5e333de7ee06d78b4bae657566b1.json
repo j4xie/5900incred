@@ -1,0 +1,13 @@
+{
+  "text_hash": "869b54700f3fbcd65fddc35ea1ff26c0348e5e333de7ee06d78b4bae657566b1",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: D (D2) | Employment Length: 6 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5258076452943049,
+    "conscientiousness": 0.25,
+    "extraversion": 0.37447758726181407,
+    "agreeableness": 0.6327995510382577,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.037625
+}

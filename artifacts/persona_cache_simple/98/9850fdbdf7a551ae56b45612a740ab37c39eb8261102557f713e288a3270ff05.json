@@ -1,0 +1,13 @@
+{
+  "text_hash": "9850fdbdf7a551ae56b45612a740ab37c39eb8261102557f713e288a3270ff05",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  60 months | Credit Grade: B (B3) | Employment Length: 10+ years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5949858272436508,
+    "conscientiousness": 0.75,
+    "extraversion": 0.3386892123005095,
+    "agreeableness": 0.6533305178520573,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.2827
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "52e826df23dacc6a5bb9135eaa80f766dd39316d764ed94e51df63b6407b35af",
+  "profile_preview": "Loan Purpose: moving | Loan Term:  36 months | Credit Grade: B (B2) | Employment Length: 3 years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.32385485603563835,
+    "conscientiousness": 0.25,
+    "extraversion": 0.3582927804343153,
+    "agreeableness": 0.6660303712510575,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.943657
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "efb49c38fe3980df554359c19046777a3e1793f773295cc0bce4f624a82380d5",
+  "profile_preview": "Loan Purpose: vacation | Loan Term:  36 months | Credit Grade: A (A1) | Employment Length: nan | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.33305893869443304,
+    "agreeableness": 0.5635752367236594,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.006774
+}

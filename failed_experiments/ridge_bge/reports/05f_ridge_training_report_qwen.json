@@ -1,0 +1,88 @@
+{
+  "phase": "05f - Train Ridge Models (Qwen-2.5-72B)",
+  "timestamp": "2025-10-27T15:04:25.943367",
+  "llm_model": "Qwen-2.5-72B",
+  "embedding_model": "BAAI/bge-large-en-v1.5",
+  "embedding_dimension": 1024,
+  "training_samples": 396,
+  "test_samples": 99,
+  "model_type": "Ridge Regression",
+  "model_alpha": 1.0,
+  "ocean_dimensions": [
+    "openness",
+    "conscientiousness",
+    "extraversion",
+    "agreeableness",
+    "neuroticism"
+  ],
+  "model_file": "../ridge_models_qwen.pkl",
+  "training_results": {
+    "openness": {
+      "train_r2": 0.9997579742415866,
+      "test_r2": -0.7536524140826297,
+      "train_rmse": 0.001303606523567559,
+      "test_rmse": 0.09601643220354207,
+      "train_mae": 0.0008782451266388801,
+      "test_mae": 0.0705740879363248,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.3380050505050504
+    },
+    "conscientiousness": {
+      "train_r2": 0.9995398550464167,
+      "test_r2": -0.2401474399834569,
+      "train_rmse": 0.0027727893718901943,
+      "test_rmse": 0.1503771912107328,
+      "train_mae": 0.0015831047038147657,
+      "test_mae": 0.12047883954108381,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.6901515151515151
+    },
+    "extraversion": {
+      "train_r2": 0.9995354695026946,
+      "test_r2": -3.0044579835260894,
+      "train_rmse": 0.0015743408368968635,
+      "test_rmse": 0.12923856273575993,
+      "train_mae": 0.0010195281410661492,
+      "test_mae": 0.10465922778797429,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.4049242424242424
+    },
+    "agreeableness": {
+      "train_r2": 0.9996243267323052,
+      "test_r2": -0.47530366468531526,
+      "train_rmse": 0.0018515824446939575,
+      "test_rmse": 0.11812596872374267,
+      "train_mae": 0.0011779896477022345,
+      "test_mae": 0.0960440304627852,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.5953282828282829
+    },
+    "neuroticism": {
+      "train_r2": 0.9996585121768767,
+      "test_r2": -0.8117680542106129,
+      "train_rmse": 0.002820550661746704,
+      "test_rmse": 0.20140674074728662,
+      "train_mae": 0.0018187690120148045,
+      "test_mae": 0.16081897643889373,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.4727272727272727
+    }
+  },
+  "summary_metrics": {
+    "avg_test_r2": -1.0570659112976206,
+    "avg_test_rmse": 0.1390329791242128,
+    "avg_test_mae": 0.11051503243341236,
+    "min_test_r2": -3.0044579835260894,
+    "max_test_r2": -0.2401474399834569
+  }
+}

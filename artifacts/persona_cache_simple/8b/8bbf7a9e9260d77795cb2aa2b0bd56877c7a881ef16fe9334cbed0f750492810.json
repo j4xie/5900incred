@@ -1,0 +1,13 @@
+{
+  "text_hash": "8bbf7a9e9260d77795cb2aa2b0bd56877c7a881ef16fe9334cbed0f750492810",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  36 months | Credit Grade: A (A5) | Employment Length: < 1 year | Home Ownership: OWN | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5458904873919418,
+    "conscientiousness": 0.5717901865886036,
+    "extraversion": 0.5851313254295688,
+    "agreeableness": 0.6903890687251438,
+    "neuroticism": 0.4862446855954464
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.977889
+}

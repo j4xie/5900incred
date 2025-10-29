@@ -1,0 +1,13 @@
+{
+  "text_hash": "97e184b6fd2a35b9dfe83bce38502041cc239d44da32815d540ad364753b335a",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  60 months | Credit Grade: F (F2) | Employment Length: 4 years | Home Ownership: OWN | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.593284887865485,
+    "conscientiousness": 0.75,
+    "extraversion": 0.75,
+    "agreeableness": 0.25,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759346997.6695821
+}

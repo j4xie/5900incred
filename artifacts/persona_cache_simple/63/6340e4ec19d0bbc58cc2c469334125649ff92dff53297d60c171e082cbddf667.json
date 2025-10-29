@@ -1,0 +1,13 @@
+{
+  "text_hash": "6340e4ec19d0bbc58cc2c469334125649ff92dff53297d60c171e082cbddf667",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  60 months | Credit Grade: G (G2) | Employment Length: < 1 year | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3877089573973112,
+    "conscientiousness": 0.25,
+    "extraversion": 0.5498469121637398,
+    "agreeableness": 0.25,
+    "neuroticism": 0.6248959302028865
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.042041
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "5226fc19de6f82a562d061fe785c0ca9d1cd464a4489fa98b486c96aafbd7214",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: B (B5) | Employment Length: 4 years | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.32090736025034156,
+    "conscientiousness": 0.75,
+    "extraversion": 0.3859921690043975,
+    "agreeableness": 0.47015456330733246,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.7095628
+}

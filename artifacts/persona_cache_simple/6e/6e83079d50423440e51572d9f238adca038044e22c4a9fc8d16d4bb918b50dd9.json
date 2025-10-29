@@ -1,0 +1,13 @@
+{
+  "text_hash": "6e83079d50423440e51572d9f238adca038044e22c4a9fc8d16d4bb918b50dd9",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: B (B3) | Employment Length: 10+ years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.4316868552546219,
+    "conscientiousness": 0.3135101944938093,
+    "extraversion": 0.75,
+    "agreeableness": 0.75,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.952757
+}

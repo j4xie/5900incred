@@ -1,0 +1,13 @@
+{
+  "text_hash": "47f35dd87e5a9c6b1530995fdb24a65d6afd93983bdefe5decb8258bf448fe15",
+  "profile_preview": "Loan Purpose: other | Loan Term:  60 months | Credit Grade: F (F3) | Employment Length: nan | Home Ownership: OWN | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.28105722933100935,
+    "conscientiousness": 0.4935701143680071,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.41793177100315965
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.042733
+}

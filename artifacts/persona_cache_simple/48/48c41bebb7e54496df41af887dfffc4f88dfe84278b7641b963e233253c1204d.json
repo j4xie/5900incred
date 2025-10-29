@@ -1,0 +1,13 @@
+{
+  "text_hash": "48c41bebb7e54496df41af887dfffc4f88dfe84278b7641b963e233253c1204d",
+  "profile_preview": "Loan Purpose: vacation | Loan Term:  36 months | Credit Grade: B (B5) | Employment Length: 5 years | Home Ownership: OWN | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.28424238676304053,
+    "conscientiousness": 0.7183421009030059,
+    "extraversion": 0.75,
+    "agreeableness": 0.492187280089638,
+    "neuroticism": 0.5346665537298346
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.0763352
+}

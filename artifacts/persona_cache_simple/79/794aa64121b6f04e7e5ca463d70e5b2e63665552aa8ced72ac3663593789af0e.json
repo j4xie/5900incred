@@ -1,0 +1,13 @@
+{
+  "text_hash": "794aa64121b6f04e7e5ca463d70e5b2e63665552aa8ced72ac3663593789af0e",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  36 months | Credit Grade: B (B3) | Employment Length: 3 years | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.47379531000596364,
+    "conscientiousness": 0.25,
+    "extraversion": 0.49360110692065234,
+    "agreeableness": 0.75,
+    "neuroticism": 0.3882802320616972
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.288256
+}

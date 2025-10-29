@@ -1,0 +1,13 @@
+{
+  "text_hash": "b1aba7284f0306767be5767e8e2b75c31a2ac13ede0a25388f1b33c063425433",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: D (D4) | Employment Length: 3 years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.6940254663801811,
+    "conscientiousness": 0.30863991154093295,
+    "extraversion": 0.4839700754927402,
+    "agreeableness": 0.5553506472044044,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.933376
+}

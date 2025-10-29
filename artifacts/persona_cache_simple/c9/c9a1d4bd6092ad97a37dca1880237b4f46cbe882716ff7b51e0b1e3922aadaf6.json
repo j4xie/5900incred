@@ -1,0 +1,13 @@
+{
+  "text_hash": "c9a1d4bd6092ad97a37dca1880237b4f46cbe882716ff7b51e0b1e3922aadaf6",
+  "profile_preview": "Loan Purpose: debt_consolidation | Loan Term:  60 months | Credit Grade: G (G1) | Employment Length: 10+ years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.3772381300519309,
+    "extraversion": 0.6386381445076871,
+    "agreeableness": 0.500541407498657,
+    "neuroticism": 0.2765488927896481
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.181581
+}

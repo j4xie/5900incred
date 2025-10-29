@@ -1,0 +1,13 @@
+{
+  "text_hash": "eea5b3c09272c7d920e930cf39559624ce689a2581299a7da4f9b7da664f1a4c",
+  "profile_preview": "Loan Purpose: home_improvement | Loan Term:  36 months | Credit Grade: D (D5) | Employment Length: 2 years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.572063913934879,
+    "extraversion": 0.25,
+    "agreeableness": 0.25,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.181746
+}

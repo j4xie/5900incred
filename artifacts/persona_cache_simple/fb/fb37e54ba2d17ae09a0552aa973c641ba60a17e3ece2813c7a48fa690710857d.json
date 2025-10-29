@@ -1,0 +1,13 @@
+{
+  "text_hash": "fb37e54ba2d17ae09a0552aa973c641ba60a17e3ece2813c7a48fa690710857d",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  60 months | Credit Grade: C (C1) | Employment Length: 10+ years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.6360089109828716,
+    "extraversion": 0.6016437212474746,
+    "agreeableness": 0.5907652442322032,
+    "neuroticism": 0.6485915118010229
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.203679
+}

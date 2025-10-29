@@ -1,0 +1,13 @@
+{
+  "text_hash": "dd2a120cadf5d04d1bed5cfbae92e640ff5402a5c90298517a0457b8966efd6e",
+  "profile_preview": "Loan Purpose: moving | Loan Term:  36 months | Credit Grade: D (D1) | Employment Length: 6 years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.6795320691726012,
+    "extraversion": 0.25,
+    "agreeableness": 0.6819290073313585,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.899102
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "58b7490ad1cea7c65465ac906dcdc13f45398a18bd8907fc90dfe6462c9a4f8f",
+  "profile_preview": "Loan Purpose: moving | Loan Term:  36 months | Credit Grade: A (A4) | Employment Length: 6 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3465467119464992,
+    "conscientiousness": 0.75,
+    "extraversion": 0.3296764232985853,
+    "agreeableness": 0.4289208202224506,
+    "neuroticism": 0.27040923206843653
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.967513
+}

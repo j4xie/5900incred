@@ -1,0 +1,13 @@
+{
+  "text_hash": "91067ec46ff85e44da05eef6ebe9d57fe5575e3229c824f43f361e783364acfd",
+  "profile_preview": "Loan Purpose: other | Loan Term:  60 months | Credit Grade: F (F2) | Employment Length: 7 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5665053586863227,
+    "conscientiousness": 0.437383548458429,
+    "extraversion": 0.75,
+    "agreeableness": 0.75,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.0028632
+}

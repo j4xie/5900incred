@@ -1,0 +1,13 @@
+{
+  "text_hash": "3ddbb4f516e5f0c21e2911f063b69edd2c4fe978702608c587aa674f123e377a",
+  "profile_preview": "Loan Purpose: other | Loan Term:  60 months | Credit Grade: G (G1) | Employment Length: 3 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.25,
+    "extraversion": 0.25,
+    "agreeableness": 0.38950531868951055,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.362175
+}

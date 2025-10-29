@@ -1,0 +1,13 @@
+{
+  "text_hash": "15aa0d62251a5bf97bf97977e3fb90df9a3842456fc3ed2d968bfeff780f6a88",
+  "profile_preview": "Loan Purpose: moving | Loan Term:  36 months | Credit Grade: E (E5) | Employment Length: 2 years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.25,
+    "extraversion": 0.48427542845818106,
+    "agreeableness": 0.75,
+    "neuroticism": 0.6024209422996316
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.1024058
+}

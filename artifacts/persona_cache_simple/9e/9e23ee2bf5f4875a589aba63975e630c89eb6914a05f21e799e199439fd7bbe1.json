@@ -1,0 +1,13 @@
+{
+  "text_hash": "9e23ee2bf5f4875a589aba63975e630c89eb6914a05f21e799e199439fd7bbe1",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  60 months | Credit Grade: C (C3) | Employment Length: 9 years | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.6177357536781896,
+    "conscientiousness": 0.75,
+    "extraversion": 0.3461109631103722,
+    "agreeableness": 0.5912839799633445,
+    "neuroticism": 0.5387483286994389
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.0985558
+}

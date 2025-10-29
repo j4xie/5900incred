@@ -1,0 +1,13 @@
+{
+  "text_hash": "f5a850c0d895e42414c4b2f4e35fd29976b4da217bcf1f5a9e059329ee08c934",
+  "profile_preview": "Loan Purpose: car | Loan Term:  60 months | Credit Grade: D (D3) | Employment Length: 4 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.4636970836351852
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.38557
+}
