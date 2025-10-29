@@ -1,0 +1,13 @@
+{
+  "text_hash": "62bc1c53ecec9ce527ae88fbb42264e00fa6c4228eef99adbe6d867cd3175cc3",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  60 months | Credit Grade: E (E2) | Employment Length: 10+ years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3856828406885459,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.703649811610498,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.365216
+}

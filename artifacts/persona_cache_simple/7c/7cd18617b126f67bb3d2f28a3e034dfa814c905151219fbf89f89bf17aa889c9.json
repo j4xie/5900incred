@@ -1,0 +1,13 @@
+{
+  "text_hash": "7cd18617b126f67bb3d2f28a3e034dfa814c905151219fbf89f89bf17aa889c9",
+  "profile_preview": "Loan Purpose: home_improvement | Loan Term:  60 months | Credit Grade: G (G2) | Employment Length: 3 years | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.48757207940508895,
+    "conscientiousness": 0.6920007755262779,
+    "extraversion": 0.7024375523213384,
+    "agreeableness": 0.25,
+    "neuroticism": 0.5050745200144766
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.926548
+}

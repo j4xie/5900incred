@@ -1,0 +1,13 @@
+{
+  "text_hash": "b4c42a0e27708725b4b59de00fa148bea1aea3a97051699cb75be977ebd76516",
+  "profile_preview": "Loan Purpose: other | Loan Term:  36 months | Credit Grade: B (B2) | Employment Length: < 1 year | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.7061182294753655,
+    "conscientiousness": 0.25,
+    "extraversion": 0.7058962510679607,
+    "agreeableness": 0.25,
+    "neuroticism": 0.6315710343494012
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.153377
+}

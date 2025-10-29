@@ -1,0 +1,13 @@
+{
+  "text_hash": "d956b7da4ed0dd7b85fe66e5de7158c213a31779e69a1dfd48f06c07a9496760",
+  "profile_preview": "Loan Purpose: major_purchase | Loan Term:  60 months | Credit Grade: B (B3) | Employment Length: 4 years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.30787452946134714,
+    "extraversion": 0.5234131155357261,
+    "agreeableness": 0.75,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.9234931
+}

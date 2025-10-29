@@ -1,0 +1,13 @@
+{
+  "text_hash": "80097e380ca528379a3f140dfd4a3b372864c9f59bb487bf7e4b51099e573ab4",
+  "profile_preview": "Loan Purpose: moving | Loan Term:  36 months | Credit Grade: A (A5) | Employment Length: < 1 year | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5001448524417693,
+    "conscientiousness": 0.25,
+    "extraversion": 0.6025249989709177,
+    "agreeableness": 0.75,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.928743
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "6eeb7c0f32022653b65373201f36cdab045eba22d711b7100a5595083e4a6159",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  60 months | Credit Grade: F (F3) | Employment Length: 2 years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.43328070999898033,
+    "conscientiousness": 0.25,
+    "extraversion": 0.7122108416427417,
+    "agreeableness": 0.25,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.906785
+}

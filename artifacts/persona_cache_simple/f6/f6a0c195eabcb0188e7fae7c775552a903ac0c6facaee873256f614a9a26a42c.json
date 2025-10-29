@@ -1,0 +1,13 @@
+{
+  "text_hash": "f6a0c195eabcb0188e7fae7c775552a903ac0c6facaee873256f614a9a26a42c",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  60 months | Credit Grade: F (F4) | Employment Length: 1 year | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.5566357664197301,
+    "agreeableness": 0.4661456741080959,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.8264341
+}

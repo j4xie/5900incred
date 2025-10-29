@@ -1,0 +1,13 @@
+{
+  "text_hash": "d32923d9ecaa5a9ab270e6f2b70444985f10ad68fb3da95b990bfa790c8767eb",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  36 months | Credit Grade: C (C2) | Employment Length: 2 years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.6970352499506053,
+    "agreeableness": 0.7149088738288053,
+    "neuroticism": 0.3713482265293943
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.756213
+}

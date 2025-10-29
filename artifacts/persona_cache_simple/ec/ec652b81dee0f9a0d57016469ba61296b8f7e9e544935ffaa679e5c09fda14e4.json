@@ -1,0 +1,13 @@
+{
+  "text_hash": "ec652b81dee0f9a0d57016469ba61296b8f7e9e544935ffaa679e5c09fda14e4",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: B (B1) | Employment Length: 5 years | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.75,
+    "agreeableness": 0.6080028169341392,
+    "neuroticism": 0.7225328622671153
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.0408058
+}

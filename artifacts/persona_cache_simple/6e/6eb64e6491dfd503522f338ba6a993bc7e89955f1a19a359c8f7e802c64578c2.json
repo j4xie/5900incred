@@ -1,0 +1,13 @@
+{
+  "text_hash": "6eb64e6491dfd503522f338ba6a993bc7e89955f1a19a359c8f7e802c64578c2",
+  "profile_preview": "Loan Purpose: major_purchase | Loan Term:  36 months | Credit Grade: A (A2) | Employment Length: 3 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.43246927215542397,
+    "conscientiousness": 0.5698216565814386,
+    "extraversion": 0.3210327353610268,
+    "agreeableness": 0.651025041158084,
+    "neuroticism": 0.4942868574276303
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.9696288
+}

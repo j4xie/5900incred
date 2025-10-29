@@ -1,0 +1,13 @@
+{
+  "text_hash": "67d5e1651e16d6e65c54c757195f41b50e31b29cdde372ad8e36e3bd09be4fb1",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  60 months | Credit Grade: B (B4) | Employment Length: 5 years | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.40560730672571976,
+    "conscientiousness": 0.25,
+    "extraversion": 0.360668619945801,
+    "agreeableness": 0.25,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.9740329
+}

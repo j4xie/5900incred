@@ -1,0 +1,13 @@
+{
+  "text_hash": "45d81722201afcde53f3a6745a80fa630e03b70ea00ecca437e21b52e890b752",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  60 months | Credit Grade: D (D3) | Employment Length: 6 years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.27282852732409457,
+    "conscientiousness": 0.25,
+    "extraversion": 0.3279365571979286,
+    "agreeableness": 0.35353054929374034,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759346997.688191
+}

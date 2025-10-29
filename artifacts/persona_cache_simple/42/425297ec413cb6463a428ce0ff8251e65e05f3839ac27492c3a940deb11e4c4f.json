@@ -1,0 +1,13 @@
+{
+  "text_hash": "425297ec413cb6463a428ce0ff8251e65e05f3839ac27492c3a940deb11e4c4f",
+  "profile_preview": "Loan Purpose: home_improvement | Loan Term:  60 months | Credit Grade: C (C5) | Employment Length: 10+ years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25907277601283807,
+    "conscientiousness": 0.25483264174657705,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.3672783084603209
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.899901
+}

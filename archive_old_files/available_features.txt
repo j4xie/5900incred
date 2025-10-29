@@ -1,0 +1,10 @@
+term
+grade
+sub_grade
+emp_length
+home_ownership
+verification_status
+pymnt_plan
+purpose
+initial_list_status
+application_type

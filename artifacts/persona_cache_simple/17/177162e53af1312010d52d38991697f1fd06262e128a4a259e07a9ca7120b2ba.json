@@ -1,0 +1,13 @@
+{
+  "text_hash": "177162e53af1312010d52d38991697f1fd06262e128a4a259e07a9ca7120b2ba",
+  "profile_preview": "Loan Purpose: other | Loan Term:  60 months | Credit Grade: E (E2) | Employment Length: 10+ years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.25,
+    "extraversion": 0.25,
+    "agreeableness": 0.5980009999121542,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.149548
+}

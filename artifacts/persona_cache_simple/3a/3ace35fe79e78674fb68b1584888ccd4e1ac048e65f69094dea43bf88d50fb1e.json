@@ -1,0 +1,13 @@
+{
+  "text_hash": "3ace35fe79e78674fb68b1584888ccd4e1ac048e65f69094dea43bf88d50fb1e",
+  "profile_preview": "Loan Purpose: car | Loan Term:  60 months | Credit Grade: D (D5) | Employment Length: 1 year | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.4761890444150635,
+    "extraversion": 0.75,
+    "agreeableness": 0.28333740408610025,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.319999
+}

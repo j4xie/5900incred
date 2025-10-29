@@ -1,0 +1,13 @@
+{
+  "text_hash": "bde85463523ec8db1b48d378cd8fce02cf9fa86643629cf865d71ffdc1894ea5",
+  "profile_preview": "Loan Purpose: home_improvement | Loan Term:  60 months | Credit Grade: D (D4) | Employment Length: 3 years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.7418263190756148,
+    "conscientiousness": 0.32127051691554265,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.697296
+}

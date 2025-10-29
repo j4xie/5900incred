@@ -1,0 +1,524 @@
+{
+  "phase": "05g - Train Elastic Net Models (Llama-3.1-8B)",
+  "timestamp": "2025-10-28T00:17:10.136745",
+  "llm_model": "Llama-3.1-8B",
+  "embedding_model": "BAAI/bge-large-en-v1.5",
+  "embedding_dimension": 1024,
+  "training_samples": 392,
+  "test_samples": 98,
+  "model_type": "Elastic Net (L1+L2 Regularization)",
+  "hyperparameters": {
+    "alphas": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0,
+      10000.0
+    ],
+    "l1_ratios": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "cv_folds": 5
+  },
+  "ocean_dimensions": [
+    "openness",
+    "conscientiousness",
+    "extraversion",
+    "agreeableness",
+    "neuroticism"
+  ],
+  "model_file": "../elasticnet_models_llama.pkl",
+  "training_results": {
+    "openness": {
+      "train_r2": 0.3000855342140495,
+      "test_r2": 0.11320055850078425,
+      "train_rmse": 0.09166987659089756,
+      "test_rmse": 0.10642797830303585,
+      "train_mae": 0.07502319957288915,
+      "test_mae": 0.08118770768087988,
+      "best_alpha": 0.1,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 48,
+      "sparsity_percent": 95.3125,
+      "top_20_features": [
+        {
+          "index": 90,
+          "coefficient": 0.007610269216536113
+        },
+        {
+          "index": 875,
+          "coefficient": 0.0067277353409662885
+        },
+        {
+          "index": 922,
+          "coefficient": -0.0056454410623950355
+        },
+        {
+          "index": 719,
+          "coefficient": 0.005380915503615829
+        },
+        {
+          "index": 690,
+          "coefficient": 0.005255913422930503
+        },
+        {
+          "index": 119,
+          "coefficient": 0.005100845426555011
+        },
+        {
+          "index": 815,
+          "coefficient": -0.004257853095004915
+        },
+        {
+          "index": 492,
+          "coefficient": 0.004053313332058217
+        },
+        {
+          "index": 449,
+          "coefficient": -0.003984810233261401
+        },
+        {
+          "index": 768,
+          "coefficient": 0.0038671872223185765
+        },
+        {
+          "index": 839,
+          "coefficient": -0.00385682881422852
+        },
+        {
+          "index": 18,
+          "coefficient": -0.003586845453766133
+        },
+        {
+          "index": 327,
+          "coefficient": -0.003534082474402779
+        },
+        {
+          "index": 1007,
+          "coefficient": -0.0034838099160471358
+        },
+        {
+          "index": 26,
+          "coefficient": 0.003233680125797955
+        },
+        {
+          "index": 394,
+          "coefficient": 0.0027708920869753584
+        },
+        {
+          "index": 617,
+          "coefficient": 0.002480956739317589
+        },
+        {
+          "index": 306,
+          "coefficient": -0.002450905042354892
+        },
+        {
+          "index": 938,
+          "coefficient": -0.002397073356027576
+        },
+        {
+          "index": 728,
+          "coefficient": 0.002175117894146323
+        }
+      ],
+      "model_intercept": 0.3438265306122449
+    },
+    "conscientiousness": {
+      "train_r2": 0.5538551212368494,
+      "test_r2": 0.21778362357393044,
+      "train_rmse": 0.10077305141207758,
+      "test_rmse": 0.153232950999309,
+      "train_mae": 0.07650963708679813,
+      "test_mae": 0.11465306152828354,
+      "best_alpha": 0.01,
+      "best_l1_ratio": 0.9,
+      "non_zero_features": 64,
+      "sparsity_percent": 93.75,
+      "top_20_features": [
+        {
+          "index": 942,
+          "coefficient": -0.021756026046667803
+        },
+        {
+          "index": 852,
+          "coefficient": 0.016681317664395803
+        },
+        {
+          "index": 62,
+          "coefficient": -0.014748217302918197
+        },
+        {
+          "index": 963,
+          "coefficient": 0.011807486119404364
+        },
+        {
+          "index": 551,
+          "coefficient": 0.011549285421717034
+        },
+        {
+          "index": 348,
+          "coefficient": -0.010398377280141273
+        },
+        {
+          "index": 383,
+          "coefficient": -0.009766962077899394
+        },
+        {
+          "index": 941,
+          "coefficient": -0.00919546454083676
+        },
+        {
+          "index": 116,
+          "coefficient": 0.00907694878874007
+        },
+        {
+          "index": 41,
+          "coefficient": 0.008590844901410861
+        },
+        {
+          "index": 453,
+          "coefficient": 0.008582904368540789
+        },
+        {
+          "index": 107,
+          "coefficient": -0.007081678911693504
+        },
+        {
+          "index": 862,
+          "coefficient": -0.006638070501697027
+        },
+        {
+          "index": 24,
+          "coefficient": -0.006526261016959227
+        },
+        {
+          "index": 805,
+          "coefficient": -0.006016798838172342
+        },
+        {
+          "index": 854,
+          "coefficient": 0.005771749790768487
+        },
+        {
+          "index": 15,
+          "coefficient": -0.0057557576176550124
+        },
+        {
+          "index": 419,
+          "coefficient": 0.005544194501374032
+        },
+        {
+          "index": 703,
+          "coefficient": -0.00546940169439816
+        },
+        {
+          "index": 666,
+          "coefficient": 0.0046877341255486225
+        }
+      ],
+      "model_intercept": 0.5816326530612245
+    },
+    "extraversion": {
+      "train_r2": 0.12759762487878268,
+      "test_r2": 0.020910412161753156,
+      "train_rmse": 0.10288343136961639,
+      "test_rmse": 0.1285206178938435,
+      "train_mae": 0.0842429332334761,
+      "test_mae": 0.10109482532521577,
+      "best_alpha": 0.1,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 23,
+      "sparsity_percent": 97.75390625,
+      "top_20_features": [
+        {
+          "index": 151,
+          "coefficient": -0.006956206367532533
+        },
+        {
+          "index": 492,
+          "coefficient": 0.00495148262366957
+        },
+        {
+          "index": 728,
+          "coefficient": 0.004832891652283988
+        },
+        {
+          "index": 643,
+          "coefficient": 0.004794549926307653
+        },
+        {
+          "index": 600,
+          "coefficient": -0.004396624330301334
+        },
+        {
+          "index": 736,
+          "coefficient": 0.004375332562333361
+        },
+        {
+          "index": 449,
+          "coefficient": -0.004125913601668845
+        },
+        {
+          "index": 101,
+          "coefficient": -0.0033807617595418334
+        },
+        {
+          "index": 1022,
+          "coefficient": 0.0033658726952154887
+        },
+        {
+          "index": 87,
+          "coefficient": 0.0032350293333531393
+        },
+        {
+          "index": 515,
+          "coefficient": 0.0029305676838525976
+        },
+        {
+          "index": 842,
+          "coefficient": 0.0028127612652650365
+        },
+        {
+          "index": 815,
+          "coefficient": -0.0012398645535174526
+        },
+        {
+          "index": 509,
+          "coefficient": -0.0010227972260136637
+        },
+        {
+          "index": 812,
+          "coefficient": 0.0009951105237962006
+        },
+        {
+          "index": 90,
+          "coefficient": 0.0007956825961298902
+        },
+        {
+          "index": 83,
+          "coefficient": -0.0007215866644757195
+        },
+        {
+          "index": 617,
+          "coefficient": 0.0006890100438581866
+        },
+        {
+          "index": 494,
+          "coefficient": -0.0005926420722980292
+        },
+        {
+          "index": 745,
+          "coefficient": 0.000530237620175606
+        }
+      ],
+      "model_intercept": 0.2564285714285714
+    },
+    "agreeableness": {
+      "train_r2": 0.3861125732769707,
+      "test_r2": 0.16810879739836393,
+      "train_rmse": 0.117855037524317,
+      "test_rmse": 0.15056052685156207,
+      "train_mae": 0.09112790573585594,
+      "test_mae": 0.11690884833984935,
+      "best_alpha": 0.1,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 54,
+      "sparsity_percent": 94.7265625,
+      "top_20_features": [
+        {
+          "index": 87,
+          "coefficient": 0.013443052061066173
+        },
+        {
+          "index": 443,
+          "coefficient": 0.011296883268851617
+        },
+        {
+          "index": 321,
+          "coefficient": -0.010653478291279874
+        },
+        {
+          "index": 154,
+          "coefficient": 0.010457620608940092
+        },
+        {
+          "index": 643,
+          "coefficient": 0.009095647515546684
+        },
+        {
+          "index": 360,
+          "coefficient": -0.00759243508303828
+        },
+        {
+          "index": 255,
+          "coefficient": 0.007147837612664279
+        },
+        {
+          "index": 116,
+          "coefficient": 0.0068163318122666005
+        },
+        {
+          "index": 720,
+          "coefficient": -0.006779743602393408
+        },
+        {
+          "index": 883,
+          "coefficient": 0.006720991805233397
+        },
+        {
+          "index": 79,
+          "coefficient": -0.006470135242213974
+        },
+        {
+          "index": 595,
+          "coefficient": 0.006284416252429233
+        },
+        {
+          "index": 1005,
+          "coefficient": 0.006220544490875569
+        },
+        {
+          "index": 726,
+          "coefficient": 0.005361602337855882
+        },
+        {
+          "index": 767,
+          "coefficient": 0.005146480575838014
+        },
+        {
+          "index": 18,
+          "coefficient": -0.004997625407166786
+        },
+        {
+          "index": 352,
+          "coefficient": 0.0048845706953583425
+        },
+        {
+          "index": 862,
+          "coefficient": -0.004678396106195854
+        },
+        {
+          "index": 742,
+          "coefficient": -0.004273410889548885
+        },
+        {
+          "index": 573,
+          "coefficient": 0.00397439581733806
+        }
+      ],
+      "model_intercept": 0.6051785714285715
+    },
+    "neuroticism": {
+      "train_r2": 0.38614132931746814,
+      "test_r2": 0.1148345090060926,
+      "train_rmse": 0.14123795423282418,
+      "test_rmse": 0.19439720035198732,
+      "train_mae": 0.10744059871299348,
+      "test_mae": 0.14602826427151006,
+      "best_alpha": 0.1,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 79,
+      "sparsity_percent": 92.28515625,
+      "top_20_features": [
+        {
+          "index": 545,
+          "coefficient": -0.018633502987741152
+        },
+        {
+          "index": 185,
+          "coefficient": -0.012484812632974768
+        },
+        {
+          "index": 794,
+          "coefficient": 0.011757818100396751
+        },
+        {
+          "index": 92,
+          "coefficient": -0.01133917553250273
+        },
+        {
+          "index": 599,
+          "coefficient": 0.0111761501650695
+        },
+        {
+          "index": 297,
+          "coefficient": -0.009508888760712556
+        },
+        {
+          "index": 329,
+          "coefficient": -0.009370212266008955
+        },
+        {
+          "index": 639,
+          "coefficient": 0.008438069153381418
+        },
+        {
+          "index": 623,
+          "coefficient": 0.008384480710092892
+        },
+        {
+          "index": 762,
+          "coefficient": 0.00813487354978122
+        },
+        {
+          "index": 161,
+          "coefficient": 0.007763972780431167
+        },
+        {
+          "index": 200,
+          "coefficient": -0.007158795490431852
+        },
+        {
+          "index": 800,
+          "coefficient": 0.007132674111781801
+        },
+        {
+          "index": 62,
+          "coefficient": 0.007025531005885574
+        },
+        {
+          "index": 710,
+          "coefficient": -0.006924089151491606
+        },
+        {
+          "index": 819,
+          "coefficient": -0.00689811209995648
+        },
+        {
+          "index": 836,
+          "coefficient": 0.006878268081894584
+        },
+        {
+          "index": 862,
+          "coefficient": 0.006727785893568103
+        },
+        {
+          "index": 651,
+          "coefficient": 0.006704244604748016
+        },
+        {
+          "index": 877,
+          "coefficient": -0.0065590148885542685
+        }
+      ],
+      "model_intercept": 0.17691326530612245
+    }
+  },
+  "summary_metrics": {
+    "avg_test_r2": 0.12696758012818488,
+    "avg_test_rmse": 0.14662785487994756,
+    "avg_test_mae": 0.11197454142914773,
+    "min_test_r2": 0.020910412161753156,
+    "max_test_r2": 0.21778362357393044,
+    "avg_sparsity_percent": 94.765625
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "653debe49a25b57e622b5de90aea67c6fec1cf09b1eac7c3db54c1cae9a0ebd5",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  36 months | Credit Grade: D (D4) | Employment Length: 9 years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3954760964018004,
+    "conscientiousness": 0.6021378931128741,
+    "extraversion": 0.3834742255004761,
+    "agreeableness": 0.25,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.179755
+}

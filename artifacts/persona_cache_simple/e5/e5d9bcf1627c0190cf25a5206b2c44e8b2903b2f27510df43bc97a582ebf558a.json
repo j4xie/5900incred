@@ -1,0 +1,13 @@
+{
+  "text_hash": "e5d9bcf1627c0190cf25a5206b2c44e8b2903b2f27510df43bc97a582ebf558a",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: A (A1) | Employment Length: 4 years | Home Ownership: OWN | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.3847046830655785,
+    "extraversion": 0.75,
+    "agreeableness": 0.41864424394877725,
+    "neuroticism": 0.6975132934044844
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.346066
+}

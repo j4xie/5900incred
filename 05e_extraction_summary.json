@@ -1,0 +1,60 @@
+{
+  "phase": "05e - Extract BGE Embeddings",
+  "timestamp": "2025-10-27T13:45:13.651585",
+  "total_samples": 500,
+  "success_count": 500,
+  "error_count": 0,
+  "success_rate": "100.00%",
+  "embedding_model": "BAAI/bge-large-en-v1.5",
+  "embedding_dimension": 1024,
+  "embedding_file": "../bge_embeddings_500.npy",
+  "ocean_target_file": "../ocean_targets_500.csv",
+  "ocean_features": [
+    "sample_id",
+    "openness",
+    "conscientiousness",
+    "extraversion",
+    "agreeableness",
+    "neuroticism"
+  ],
+  "ocean_statistics": {
+    "sample_id": {
+      "mean": 249.5,
+      "std": 144.4818327679989,
+      "min": 0.0,
+      "max": 499.0
+    },
+    "openness": {
+      "mean": 0.2932,
+      "std": 0.10302907346938493,
+      "min": 0.2,
+      "max": 0.8
+    },
+    "conscientiousness": {
+      "mean": 0.7647999999999999,
+      "std": 0.11413594538118181,
+      "min": 0.2,
+      "max": 0.9
+    },
+    "extraversion": {
+      "mean": 0.25560000000000005,
+      "std": 0.08025909945976334,
+      "min": 0.1,
+      "max": 0.7
+    },
+    "agreeableness": {
+      "mean": 0.48979999999999996,
+      "std": 0.14818866272262204,
+      "min": 0.2,
+      "max": 0.9
+    },
+    "neuroticism": {
+      "mean": 0.38300000000000006,
+      "std": 0.20142528214843625,
+      "min": 0.1,
+      "max": 0.9
+    }
+  },
+  "processing_time_seconds": 270.72578716278076,
+  "samples_per_second": 1.8468872331669028
+}

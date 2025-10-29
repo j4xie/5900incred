@@ -1,0 +1,13 @@
+{
+  "text_hash": "f8c194ace07cc532854781dfa7494155cd62dd2adf854559cb1f0fa42d0f73a7",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: A (A4) | Employment Length: 10+ years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.5206223650650639,
+    "agreeableness": 0.6534615358462235,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.161694
+}

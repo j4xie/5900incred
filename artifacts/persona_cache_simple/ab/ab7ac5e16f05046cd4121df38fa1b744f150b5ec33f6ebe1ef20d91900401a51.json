@@ -1,0 +1,13 @@
+{
+  "text_hash": "ab7ac5e16f05046cd4121df38fa1b744f150b5ec33f6ebe1ef20d91900401a51",
+  "profile_preview": "Loan Purpose: major_purchase | Loan Term:  36 months | Credit Grade: B (B3) | Employment Length: 2 years | Home Ownership: OWN | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.6698421169235004,
+    "conscientiousness": 0.43367030761057285,
+    "extraversion": 0.75,
+    "agreeableness": 0.5610613386521724,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.3371499
+}

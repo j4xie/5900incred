@@ -1,0 +1,13 @@
+{
+  "text_hash": "80784463b7d439eb1b8f36f961ebc4df5890b87f4f91a8c22dc1a03262bc39b4",
+  "profile_preview": "Loan Purpose: other | Loan Term:  36 months | Credit Grade: D (D4) | Employment Length: < 1 year | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5018351309704211,
+    "conscientiousness": 0.7180820656283949,
+    "extraversion": 0.25,
+    "agreeableness": 0.3825037999503556,
+    "neuroticism": 0.3459582625296801
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.2539918
+}

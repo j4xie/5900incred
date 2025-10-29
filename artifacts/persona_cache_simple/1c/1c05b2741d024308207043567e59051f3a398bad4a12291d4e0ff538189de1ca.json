@@ -1,0 +1,13 @@
+{
+  "text_hash": "1c05b2741d024308207043567e59051f3a398bad4a12291d4e0ff538189de1ca",
+  "profile_preview": "Loan Purpose: house | Loan Term:  60 months | Credit Grade: E (E4) | Employment Length: 10+ years | Home Ownership: OWN | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.25,
+    "extraversion": 0.25,
+    "agreeableness": 0.4935458375824489,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.20819
+}

@@ -1,0 +1,525 @@
+{
+  "phase": "05f - Train MiniLM Elastic Net Models (DeepSeek-V3.1)",
+  "timestamp": "2025-10-29T12:57:17.242523",
+  "llm_model": "DeepSeek-V3.1",
+  "embedding_model": "sentence-transformers/all-MiniLM-L12-v2",
+  "embedding_dimension": 384,
+  "embedding_parameters": "33M",
+  "training_samples": 400,
+  "test_samples": 100,
+  "model_type": "Elastic Net (L1+L2 Regularization)",
+  "hyperparameters": {
+    "alphas": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0,
+      10000.0
+    ],
+    "l1_ratios": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      0.95,
+      0.99
+    ],
+    "cv_folds": 5
+  },
+  "ocean_dimensions": [
+    "openness",
+    "conscientiousness",
+    "extraversion",
+    "agreeableness",
+    "neuroticism"
+  ],
+  "model_file": "../minilm_elasticnet_models_deepseek.pkl",
+  "training_results": {
+    "openness": {
+      "train_r2": 0.0,
+      "test_r2": -0.00043361847610001725,
+      "train_rmse": 0.10159939714388073,
+      "test_rmse": 0.10807433782220674,
+      "train_mae": 0.05333124959468841,
+      "test_mae": 0.057899999618530276,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 383,
+          "coefficient": 0.0
+        },
+        {
+          "index": 382,
+          "coefficient": 0.0
+        },
+        {
+          "index": 121,
+          "coefficient": 0.0
+        },
+        {
+          "index": 122,
+          "coefficient": 0.0
+        },
+        {
+          "index": 123,
+          "coefficient": -0.0
+        },
+        {
+          "index": 124,
+          "coefficient": -0.0
+        },
+        {
+          "index": 125,
+          "coefficient": 0.0
+        },
+        {
+          "index": 126,
+          "coefficient": 0.0
+        },
+        {
+          "index": 127,
+          "coefficient": 0.0
+        },
+        {
+          "index": 128,
+          "coefficient": -0.0
+        },
+        {
+          "index": 129,
+          "coefficient": 0.0
+        },
+        {
+          "index": 130,
+          "coefficient": -0.0
+        },
+        {
+          "index": 131,
+          "coefficient": 0.0
+        },
+        {
+          "index": 132,
+          "coefficient": -0.0
+        },
+        {
+          "index": 133,
+          "coefficient": 0.0
+        },
+        {
+          "index": 134,
+          "coefficient": -0.0
+        },
+        {
+          "index": 135,
+          "coefficient": -0.0
+        },
+        {
+          "index": 136,
+          "coefficient": 0.0
+        },
+        {
+          "index": 137,
+          "coefficient": 0.0
+        },
+        {
+          "index": 138,
+          "coefficient": -0.0
+        }
+      ],
+      "model_intercept": 0.2927500009536743
+    },
+    "conscientiousness": {
+      "train_r2": -8.43769498715119e-14,
+      "test_r2": -0.005633272997699779,
+      "train_rmse": 0.11986554967963571,
+      "test_rmse": 0.08684612569068786,
+      "train_mae": 0.0773449815511704,
+      "test_mae": 0.060979981899261515,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 383,
+          "coefficient": -0.0
+        },
+        {
+          "index": 382,
+          "coefficient": 0.0
+        },
+        {
+          "index": 121,
+          "coefficient": -0.0
+        },
+        {
+          "index": 122,
+          "coefficient": -0.0
+        },
+        {
+          "index": 123,
+          "coefficient": -0.0
+        },
+        {
+          "index": 124,
+          "coefficient": -0.0
+        },
+        {
+          "index": 125,
+          "coefficient": -0.0
+        },
+        {
+          "index": 126,
+          "coefficient": 0.0
+        },
+        {
+          "index": 127,
+          "coefficient": 0.0
+        },
+        {
+          "index": 128,
+          "coefficient": -0.0
+        },
+        {
+          "index": 129,
+          "coefficient": 0.0
+        },
+        {
+          "index": 130,
+          "coefficient": -0.0
+        },
+        {
+          "index": 131,
+          "coefficient": -0.0
+        },
+        {
+          "index": 132,
+          "coefficient": 0.0
+        },
+        {
+          "index": 133,
+          "coefficient": -0.0
+        },
+        {
+          "index": 134,
+          "coefficient": -0.0
+        },
+        {
+          "index": 135,
+          "coefficient": -0.0
+        },
+        {
+          "index": 136,
+          "coefficient": 0.0
+        },
+        {
+          "index": 137,
+          "coefficient": 0.0
+        },
+        {
+          "index": 138,
+          "coefficient": -0.0
+        }
+      ],
+      "model_intercept": 0.7635000348091125
+    },
+    "extraversion": {
+      "train_r2": -3.3306690738754696e-15,
+      "test_r2": -0.020306202318399524,
+      "train_rmse": 0.08117843001684635,
+      "test_rmse": 0.07620080444059636,
+      "train_mae": 0.0667575005888939,
+      "test_mae": 0.06139500081539153,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 383,
+          "coefficient": -0.0
+        },
+        {
+          "index": 382,
+          "coefficient": -0.0
+        },
+        {
+          "index": 121,
+          "coefficient": 0.0
+        },
+        {
+          "index": 122,
+          "coefficient": 0.0
+        },
+        {
+          "index": 123,
+          "coefficient": -0.0
+        },
+        {
+          "index": 124,
+          "coefficient": -0.0
+        },
+        {
+          "index": 125,
+          "coefficient": 0.0
+        },
+        {
+          "index": 126,
+          "coefficient": 0.0
+        },
+        {
+          "index": 127,
+          "coefficient": 0.0
+        },
+        {
+          "index": 128,
+          "coefficient": 0.0
+        },
+        {
+          "index": 129,
+          "coefficient": -0.0
+        },
+        {
+          "index": 130,
+          "coefficient": -0.0
+        },
+        {
+          "index": 131,
+          "coefficient": -0.0
+        },
+        {
+          "index": 132,
+          "coefficient": -0.0
+        },
+        {
+          "index": 133,
+          "coefficient": 0.0
+        },
+        {
+          "index": 134,
+          "coefficient": 0.0
+        },
+        {
+          "index": 135,
+          "coefficient": 0.0
+        },
+        {
+          "index": 136,
+          "coefficient": -0.0
+        },
+        {
+          "index": 137,
+          "coefficient": 0.0
+        },
+        {
+          "index": 138,
+          "coefficient": -0.0
+        }
+      ],
+      "model_intercept": 0.257750004529953
+    },
+    "agreeableness": {
+      "train_r2": -6.439293542825908e-15,
+      "test_r2": -0.005580392667149381,
+      "train_rmse": 0.1464368464560752,
+      "test_rmse": 0.15437373392458564,
+      "train_mae": 0.11981250065565106,
+      "test_mae": 0.12050000047683714,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 383,
+          "coefficient": -0.0
+        },
+        {
+          "index": 382,
+          "coefficient": 0.0
+        },
+        {
+          "index": 121,
+          "coefficient": -0.0
+        },
+        {
+          "index": 122,
+          "coefficient": -0.0
+        },
+        {
+          "index": 123,
+          "coefficient": -0.0
+        },
+        {
+          "index": 124,
+          "coefficient": -0.0
+        },
+        {
+          "index": 125,
+          "coefficient": -0.0
+        },
+        {
+          "index": 126,
+          "coefficient": -0.0
+        },
+        {
+          "index": 127,
+          "coefficient": -0.0
+        },
+        {
+          "index": 128,
+          "coefficient": 0.0
+        },
+        {
+          "index": 129,
+          "coefficient": -0.0
+        },
+        {
+          "index": 130,
+          "coefficient": -0.0
+        },
+        {
+          "index": 131,
+          "coefficient": -0.0
+        },
+        {
+          "index": 132,
+          "coefficient": 0.0
+        },
+        {
+          "index": 133,
+          "coefficient": 0.0
+        },
+        {
+          "index": 134,
+          "coefficient": -0.0
+        },
+        {
+          "index": 135,
+          "coefficient": 0.0
+        },
+        {
+          "index": 136,
+          "coefficient": -0.0
+        },
+        {
+          "index": 137,
+          "coefficient": -0.0
+        },
+        {
+          "index": 138,
+          "coefficient": -0.0
+        }
+      ],
+      "model_intercept": 0.48750001192092896
+    },
+    "neuroticism": {
+      "train_r2": 0.0,
+      "test_r2": -0.0006260801671020833,
+      "train_rmse": 0.20155892438688988,
+      "test_rmse": 0.19988996975124226,
+      "train_mae": 0.17439999985694882,
+      "test_mae": 0.1721199998855591,
+      "best_alpha": 10000.0,
+      "best_l1_ratio": 0.1,
+      "non_zero_features": 0,
+      "sparsity_percent": 100.0,
+      "top_20_features": [
+        {
+          "index": 383,
+          "coefficient": -0.0
+        },
+        {
+          "index": 382,
+          "coefficient": 0.0
+        },
+        {
+          "index": 121,
+          "coefficient": 0.0
+        },
+        {
+          "index": 122,
+          "coefficient": -0.0
+        },
+        {
+          "index": 123,
+          "coefficient": -0.0
+        },
+        {
+          "index": 124,
+          "coefficient": -0.0
+        },
+        {
+          "index": 125,
+          "coefficient": 0.0
+        },
+        {
+          "index": 126,
+          "coefficient": -0.0
+        },
+        {
+          "index": 127,
+          "coefficient": -0.0
+        },
+        {
+          "index": 128,
+          "coefficient": 0.0
+        },
+        {
+          "index": 129,
+          "coefficient": -0.0
+        },
+        {
+          "index": 130,
+          "coefficient": 0.0
+        },
+        {
+          "index": 131,
+          "coefficient": -0.0
+        },
+        {
+          "index": 132,
+          "coefficient": -0.0
+        },
+        {
+          "index": 133,
+          "coefficient": -0.0
+        },
+        {
+          "index": 134,
+          "coefficient": 0.0
+        },
+        {
+          "index": 135,
+          "coefficient": -0.0
+        },
+        {
+          "index": 136,
+          "coefficient": -0.0
+        },
+        {
+          "index": 137,
+          "coefficient": -0.0
+        },
+        {
+          "index": 138,
+          "coefficient": 0.0
+        }
+      ],
+      "model_intercept": 0.38199999928474426
+    }
+  },
+  "summary_metrics": {
+    "avg_test_r2": -0.006515913325290157,
+    "avg_test_rmse": 0.12507699432586378,
+    "avg_test_mae": 0.09457899653911592,
+    "min_test_r2": -0.020306202318399524,
+    "max_test_r2": -0.00043361847610001725,
+    "avg_sparsity_percent": 100.0
+  }
+}

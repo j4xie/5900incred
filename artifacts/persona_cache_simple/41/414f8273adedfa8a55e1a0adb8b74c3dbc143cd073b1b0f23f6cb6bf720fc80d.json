@@ -1,0 +1,13 @@
+{
+  "text_hash": "414f8273adedfa8a55e1a0adb8b74c3dbc143cd073b1b0f23f6cb6bf720fc80d",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  60 months | Credit Grade: D (D2) | Employment Length: 9 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.255119469774682,
+    "conscientiousness": 0.6794125164578232,
+    "extraversion": 0.33547405464003655,
+    "agreeableness": 0.721546902722108,
+    "neuroticism": 0.7346838006597673
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.748706
+}

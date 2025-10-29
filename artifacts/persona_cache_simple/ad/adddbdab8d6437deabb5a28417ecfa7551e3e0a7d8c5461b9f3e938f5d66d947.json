@@ -1,0 +1,13 @@
+{
+  "text_hash": "adddbdab8d6437deabb5a28417ecfa7551e3e0a7d8c5461b9f3e938f5d66d947",
+  "profile_preview": "Loan Purpose: major_purchase | Loan Term:  36 months | Credit Grade: A (A1) | Employment Length: 9 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.6791647476328455,
+    "conscientiousness": 0.5523104589787103,
+    "extraversion": 0.6707402776625799,
+    "agreeableness": 0.25,
+    "neuroticism": 0.3198833855148133
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.3754308
+}

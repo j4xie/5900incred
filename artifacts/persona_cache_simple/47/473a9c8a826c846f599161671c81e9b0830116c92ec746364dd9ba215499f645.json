@@ -1,0 +1,13 @@
+{
+  "text_hash": "473a9c8a826c846f599161671c81e9b0830116c92ec746364dd9ba215499f645",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  60 months | Credit Grade: B (B3) | Employment Length: nan | Home Ownership: OWN | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.27823809028562113,
+    "conscientiousness": 0.5094683429946817,
+    "extraversion": 0.3498745801276235,
+    "agreeableness": 0.25,
+    "neuroticism": 0.5117353670093546
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.4296079
+}

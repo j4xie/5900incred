@@ -1,0 +1,13 @@
+{
+  "text_hash": "e2aaa68816f0a136b09b8646728151c8278c2d7adb1ba30c3e9e6f63b6359259",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: A (A3) | Employment Length: 10+ years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.25,
+    "extraversion": 0.6898731157858561,
+    "agreeableness": 0.44728575843555984,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.9903822
+}

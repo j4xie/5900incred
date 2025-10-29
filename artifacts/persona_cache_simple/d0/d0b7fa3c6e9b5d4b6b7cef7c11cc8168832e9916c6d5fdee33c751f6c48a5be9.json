@@ -1,0 +1,13 @@
+{
+  "text_hash": "d0b7fa3c6e9b5d4b6b7cef7c11cc8168832e9916c6d5fdee33c751f6c48a5be9",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: C (C3) | Employment Length: 8 years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.43205817309954625,
+    "extraversion": 0.41987511432261093,
+    "agreeableness": 0.25,
+    "neuroticism": 0.5124297790491091
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.695246
+}

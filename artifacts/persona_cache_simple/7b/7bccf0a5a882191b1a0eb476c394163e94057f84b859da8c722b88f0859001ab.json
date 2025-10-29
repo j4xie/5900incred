@@ -1,0 +1,13 @@
+{
+  "text_hash": "7bccf0a5a882191b1a0eb476c394163e94057f84b859da8c722b88f0859001ab",
+  "profile_preview": "Loan Purpose: debt_consolidation | Loan Term:  60 months | Credit Grade: D (D5) | Employment Length: 1 year | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.48359588661314823,
+    "conscientiousness": 0.6582351391339291,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.5782088946034687
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.011255
+}

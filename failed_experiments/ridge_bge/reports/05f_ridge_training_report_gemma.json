@@ -1,0 +1,88 @@
+{
+  "phase": "05f - Train Ridge Models (Gemma-2-9B)",
+  "timestamp": "2025-10-27T15:04:14.245363",
+  "llm_model": "Gemma-2-9B",
+  "embedding_model": "BAAI/bge-large-en-v1.5",
+  "embedding_dimension": 1024,
+  "training_samples": 400,
+  "test_samples": 100,
+  "model_type": "Ridge Regression",
+  "model_alpha": 1.0,
+  "ocean_dimensions": [
+    "openness",
+    "conscientiousness",
+    "extraversion",
+    "agreeableness",
+    "neuroticism"
+  ],
+  "model_file": "../ridge_models_gemma.pkl",
+  "training_results": {
+    "openness": {
+      "train_r2": 0.9997766740794959,
+      "test_r2": -1.8320270328996617,
+      "train_rmse": 0.0010937746560743574,
+      "test_rmse": 0.08935034530288144,
+      "train_mae": 0.0007617821224099691,
+      "test_mae": 0.0691018480612646,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.28325
+    },
+    "conscientiousness": {
+      "train_r2": 0.9997562460032114,
+      "test_r2": -1.0949552896581967,
+      "train_rmse": 0.0017211002783297461,
+      "test_rmse": 0.12027112095705864,
+      "train_mae": 0.0010990787198120358,
+      "test_mae": 0.09849075909872097,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.594625
+    },
+    "extraversion": {
+      "train_r2": 0.9996926024400518,
+      "test_r2": -1.4994519121835652,
+      "train_rmse": 0.00160364833630295,
+      "test_rmse": 0.11461727291484833,
+      "train_mae": 0.001183579584624551,
+      "test_mae": 0.08834513703177156,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.27799999999999997
+    },
+    "agreeableness": {
+      "train_r2": 0.9998067553769254,
+      "test_r2": -0.41665775825424367,
+      "train_rmse": 0.0017238025971647425,
+      "test_rmse": 0.13526844275592076,
+      "train_mae": 0.0012477768871859713,
+      "test_mae": 0.10289268031981542,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.507375
+    },
+    "neuroticism": {
+      "train_r2": 0.9996941150144788,
+      "test_r2": -0.5518947963199117,
+      "train_rmse": 0.002573166608790171,
+      "test_rmse": 0.20673081723790976,
+      "train_mae": 0.0017782684931812863,
+      "test_mae": 0.15072288594192446,
+      "model_coef_shape": [
+        1024
+      ],
+      "model_intercept": 0.202
+    }
+  },
+  "summary_metrics": {
+    "avg_test_r2": -1.0789973578631158,
+    "avg_test_rmse": 0.13324759983372378,
+    "avg_test_mae": 0.1019106620906994,
+    "min_test_r2": -1.8320270328996617,
+    "max_test_r2": -0.41665775825424367
+  }
+}

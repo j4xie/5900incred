@@ -1,0 +1,13 @@
+{
+  "text_hash": "5a9eb5f8d8f7a927979510f46952e0f379d72faf04f2fbc83d515c2585c8a76b",
+  "profile_preview": "Loan Purpose: debt_consolidation | Loan Term:  60 months | Credit Grade: F (F5) | Employment Length: 8 years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3539842349369973,
+    "conscientiousness": 0.75,
+    "extraversion": 0.5921183201931692,
+    "agreeableness": 0.41142087881719247,
+    "neuroticism": 0.47593973192291794
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.208559
+}

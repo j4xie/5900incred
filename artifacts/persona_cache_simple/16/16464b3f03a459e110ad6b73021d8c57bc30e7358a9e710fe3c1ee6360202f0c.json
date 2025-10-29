@@ -1,0 +1,13 @@
+{
+  "text_hash": "16464b3f03a459e110ad6b73021d8c57bc30e7358a9e710fe3c1ee6360202f0c",
+  "profile_preview": "Loan Purpose: wedding | Loan Term:  36 months | Credit Grade: A (A5) | Employment Length: nan | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.25,
+    "extraversion": 0.25,
+    "agreeableness": 0.25,
+    "neuroticism": 0.735121203059126
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.9187179
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "e6a4aa8af0078b3b06f56dac64f23a4b90acd9bd29a3d82029220995e07f8a77",
+  "profile_preview": "Loan Purpose: renewable_energy | Loan Term:  36 months | Credit Grade: C (C2) | Employment Length: 2 years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.3943211015766303,
+    "neuroticism": 0.5651374900632392
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.238353
+}

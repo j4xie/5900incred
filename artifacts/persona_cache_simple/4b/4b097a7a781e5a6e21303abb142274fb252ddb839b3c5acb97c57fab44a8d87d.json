@@ -1,0 +1,13 @@
+{
+  "text_hash": "4b097a7a781e5a6e21303abb142274fb252ddb839b3c5acb97c57fab44a8d87d",
+  "profile_preview": "Loan Purpose: vacation | Loan Term:  36 months | Credit Grade: C (C3) | Employment Length: 5 years | Home Ownership: MORTGAGE | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.2931133793418094,
+    "conscientiousness": 0.4692131538105228,
+    "extraversion": 0.25,
+    "agreeableness": 0.25,
+    "neuroticism": 0.25
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.02787
+}

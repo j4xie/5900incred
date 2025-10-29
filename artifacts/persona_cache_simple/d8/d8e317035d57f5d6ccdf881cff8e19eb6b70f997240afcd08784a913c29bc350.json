@@ -1,0 +1,13 @@
+{
+  "text_hash": "d8e317035d57f5d6ccdf881cff8e19eb6b70f997240afcd08784a913c29bc350",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  60 months | Credit Grade: E (E1) | Employment Length: nan | Home Ownership: RENT | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.3646234176970607,
+    "extraversion": 0.75,
+    "agreeableness": 0.75,
+    "neuroticism": 0.41969261118669354
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.0810099
+}

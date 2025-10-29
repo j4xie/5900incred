@@ -1,0 +1,13 @@
+{
+  "text_hash": "5cf7e2dba6ed3ed0c69934cd8a4850c27519e5ff8451c6aea735769509051719",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  36 months | Credit Grade: A (A3) | Employment Length: 3 years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3631574426226219,
+    "conscientiousness": 0.6520575770763815,
+    "extraversion": 0.75,
+    "agreeableness": 0.5401659464789941,
+    "neuroticism": 0.45742642866853306
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.617957
+}

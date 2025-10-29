@@ -1,0 +1,13 @@
+{
+  "text_hash": "310cfb310a98a0b2b9c8c2182fb280d176e4507454119ce8e58e8829c7f9784a",
+  "profile_preview": "Loan Purpose: car | Loan Term:  60 months | Credit Grade: B (B2) | Employment Length: 10+ years | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.25,
+    "extraversion": 0.7257195768704916,
+    "agreeableness": 0.25,
+    "neuroticism": 0.4644212993943182
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.3278348
+}

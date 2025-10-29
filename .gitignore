@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (large binary files)
+*.npy
+*.pkl
+*.h5
+*.hdf5
+
+# Test results and temporary files
+*_test_results.json
+*_test_summary.json
+*_diagnostic*.json
+test_*.py
+diagnose_*.py
+quick_test_*.csv
+hf_test_*.csv
+test_samples_*.csv
+
+# Logs
+*.log
+logs/*.log
+
+# Model checkpoints (if very large)
+# models/*.pt
+# models/*.pth
+
+# Documentation artifacts
+*.md.backup
+*_draft.md
+
+# Claude Code
+.claude/
+
+# Temporary files
+*.tmp
+*.temp
+*_temp.*

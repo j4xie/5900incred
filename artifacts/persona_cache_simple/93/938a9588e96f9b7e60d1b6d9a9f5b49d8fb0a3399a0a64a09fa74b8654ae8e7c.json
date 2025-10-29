@@ -1,0 +1,13 @@
+{
+  "text_hash": "938a9588e96f9b7e60d1b6d9a9f5b49d8fb0a3399a0a64a09fa74b8654ae8e7c",
+  "profile_preview": "Loan Purpose: moving | Loan Term:  36 months | Credit Grade: C (C1) | Employment Length: 1 year | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5763333757818522,
+    "conscientiousness": 0.75,
+    "extraversion": 0.37819998557171786,
+    "agreeableness": 0.6639054188653607,
+    "neuroticism": 0.5612890258341303
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.081972
+}

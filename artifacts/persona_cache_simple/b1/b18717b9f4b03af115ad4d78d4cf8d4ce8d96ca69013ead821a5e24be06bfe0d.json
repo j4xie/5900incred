@@ -1,0 +1,13 @@
+{
+  "text_hash": "b18717b9f4b03af115ad4d78d4cf8d4ce8d96ca69013ead821a5e24be06bfe0d",
+  "profile_preview": "Loan Purpose: small_business | Loan Term:  60 months | Credit Grade: F (F1) | Employment Length: < 1 year | Home Ownership: MORTGAGE | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.6934676006653969,
+    "conscientiousness": 0.75,
+    "extraversion": 0.25,
+    "agreeableness": 0.75,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.225066
+}

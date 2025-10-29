@@ -1,0 +1,13 @@
+{
+  "text_hash": "51724148274fb4071afdf9966d6189408dda00f963b36975fa2bf3fcb5762dfc",
+  "profile_preview": "Loan Purpose: car | Loan Term:  60 months | Credit Grade: A (A5) | Employment Length: 7 years | Home Ownership: MORTGAGE | Income Verification: Source Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.3181496430929167,
+    "conscientiousness": 0.25,
+    "extraversion": 0.25,
+    "agreeableness": 0.42726953337603935,
+    "neuroticism": 0.5541077241194685
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.3146691
+}

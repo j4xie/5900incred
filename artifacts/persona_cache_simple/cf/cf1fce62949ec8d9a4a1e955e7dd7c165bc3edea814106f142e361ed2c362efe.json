@@ -1,0 +1,13 @@
+{
+  "text_hash": "cf1fce62949ec8d9a4a1e955e7dd7c165bc3edea814106f142e361ed2c362efe",
+  "profile_preview": "Loan Purpose: medical | Loan Term:  36 months | Credit Grade: D (D4) | Employment Length: 5 years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.75,
+    "conscientiousness": 0.5805478602602491,
+    "extraversion": 0.6430955728616322,
+    "agreeableness": 0.75,
+    "neuroticism": 0.35845839473382995
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.295444
+}

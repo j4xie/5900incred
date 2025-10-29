@@ -1,0 +1,13 @@
+{
+  "text_hash": "2c67f7407f2a224c38a2b13ab2ce967cd1fb71075d3c450a41dfcf543ddd004f",
+  "profile_preview": "Loan Purpose: debt_consolidation | Loan Term:  36 months | Credit Grade: A (A3) | Employment Length: 3 years | Home Ownership: OWN | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.4967366635093318,
+    "extraversion": 0.25,
+    "agreeableness": 0.6984647802772151,
+    "neuroticism": 0.75
+  },
+  "method": "fallback",
+  "timestamp": 1759347071.869886
+}

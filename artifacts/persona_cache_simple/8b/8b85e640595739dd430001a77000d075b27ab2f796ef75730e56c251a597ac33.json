@@ -1,0 +1,13 @@
+{
+  "text_hash": "8b85e640595739dd430001a77000d075b27ab2f796ef75730e56c251a597ac33",
+  "profile_preview": "Loan Purpose: credit_card | Loan Term:  60 months | Credit Grade: F (F4) | Employment Length: 6 years | Home Ownership: RENT | Income Verification: Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.5450118930416675,
+    "conscientiousness": 0.34898721365001684,
+    "extraversion": 0.2617188485482984,
+    "agreeableness": 0.4375124251091649,
+    "neuroticism": 0.6971847395638899
+  },
+  "method": "fallback",
+  "timestamp": 1759346997.697737
+}

@@ -1,0 +1,13 @@
+{
+  "text_hash": "1366f06d019e237b53d49d3f6cefb0c36a3d424972dc65dc2fd8c6d62688bbc7",
+  "profile_preview": "Loan Purpose: debt_consolidation | Loan Term:  36 months | Credit Grade: C (C1) | Employment Length: 9 years | Home Ownership: RENT | Income Verification: Not Verified | Application Type: Individual",
+  "scores": {
+    "openness": 0.25,
+    "conscientiousness": 0.25,
+    "extraversion": 0.3274629859550537,
+    "agreeableness": 0.42553238650447045,
+    "neuroticism": 0.41499723713262876
+  },
+  "method": "fallback",
+  "timestamp": 1759347072.420966
+}
