@@ -1,0 +1,123 @@
+{
+  "experiment": "07c_xgboost_baseline_only_full_34k",
+  "timestamp": "2025-10-31T13:36:33.550418",
+  "description": "XGBoost Baseline Model trained on full 34.5K dataset WITHOUT any OCEAN features",
+  "dataset": {
+    "total_samples": 34529,
+    "train_samples": 27623,
+    "test_samples": 6906,
+    "total_features": 33,
+    "default_rate": 0.146253873555562,
+    "default_rate_percent": 14.6253873555562
+  },
+  "model_config": {
+    "model_type": "XGBClassifier",
+    "parameters": {
+      "n_estimators": 100,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "random_state": 42,
+      "eval_metric": "logloss",
+      "early_stopping_rounds": 10
+    },
+    "class_weight": 5.837376237623762
+  },
+  "performance_metrics": {
+    "roc_auc": 0.6995017598774804,
+    "accuracy": 0.6911381407471764,
+    "precision": 0.2531868131868132,
+    "recall": 0.5702970297029702,
+    "f1_score": 0.35068493150684926,
+    "pr_auc": 0.2773575917609673
+  },
+  "confusion_matrix": {
+    "true_negatives": 4197,
+    "false_positives": 1699,
+    "false_negatives": 434,
+    "true_positives": 576
+  },
+  "top_features": [
+    {
+      "feature": "grade_A",
+      "importance": 0.07541923224925995
+    },
+    {
+      "feature": "grade_B",
+      "importance": 0.01892686076462269
+    },
+    {
+      "feature": "term_ 60 months",
+      "importance": 0.015949275344610214
+    },
+    {
+      "feature": "int_rate",
+      "importance": 0.009804179891943932
+    },
+    {
+      "feature": "term_ 36 months",
+      "importance": 0.008525270037353039
+    },
+    {
+      "feature": "zip_code_986xx",
+      "importance": 0.005676832050085068
+    },
+    {
+      "feature": "purpose_small_business",
+      "importance": 0.005549627356231213
+    },
+    {
+      "feature": "grade_C",
+      "importance": 0.0044630239717662334
+    },
+    {
+      "feature": "zip_code_322xx",
+      "importance": 0.00433589331805706
+    },
+    {
+      "feature": "zip_code_750xx",
+      "importance": 0.004334141965955496
+    },
+    {
+      "feature": "addr_state_CO",
+      "importance": 0.004299123305827379
+    },
+    {
+      "feature": "purpose_credit_card",
+      "importance": 0.004229384940117598
+    },
+    {
+      "feature": "zip_code_601xx",
+      "importance": 0.004151056054979563
+    },
+    {
+      "feature": "addr_state_LA",
+      "importance": 0.004133113659918308
+    },
+    {
+      "feature": "zip_code_223xx",
+      "importance": 0.004129728768020868
+    },
+    {
+      "feature": "sub_grade_A4",
+      "importance": 0.004068412352353334
+    },
+    {
+      "feature": "zip_code_017xx",
+      "importance": 0.004061484709382057
+    },
+    {
+      "feature": "zip_code_333xx",
+      "importance": 0.004058443941175938
+    },
+    {
+      "feature": "zip_code_331xx",
+      "importance": 0.004002566449344158
+    },
+    {
+      "feature": "purpose_other",
+      "importance": 0.003998016472905874
+    }
+  ]
+}

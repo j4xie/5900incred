@@ -1,0 +1,205 @@
+{
+  "experiment": "07_xgboost_all_llm_comparison_2k",
+  "timestamp": "2025-10-31T13:16:54.957150",
+  "dataset": {
+    "total_samples": 2000,
+    "train_samples": 1600,
+    "test_samples": 400,
+    "default_rate": 0.1465
+  },
+  "models": {
+    "baseline": {
+      "name": "Baseline (No OCEAN)",
+      "metrics": {
+        "accuracy": 0.805,
+        "precision": 0.28888888888888886,
+        "recall": 0.22033898305084745,
+        "f1": 0.25,
+        "auc": 0.5700084497241413
+      },
+      "confusion_matrix": [
+        [
+          309,
+          32
+        ],
+        [
+          46,
+          13
+        ]
+      ]
+    },
+    "llama": {
+      "name": "LLAMA OCEAN",
+      "metrics": {
+        "accuracy": 0.7975,
+        "precision": 0.2708333333333333,
+        "recall": 0.22033898305084745,
+        "f1": 0.24299065420560745,
+        "auc": 0.574382424573786
+      },
+      "confusion_matrix": [
+        [
+          306,
+          35
+        ],
+        [
+          46,
+          13
+        ]
+      ]
+    },
+    "gpt": {
+      "name": "GPT OCEAN",
+      "metrics": {
+        "accuracy": 0.7975,
+        "precision": 0.25,
+        "recall": 0.1864406779661017,
+        "f1": 0.21359223300970873,
+        "auc": 0.6044037974054377
+      },
+      "confusion_matrix": [
+        [
+          308,
+          33
+        ],
+        [
+          48,
+          11
+        ]
+      ]
+    },
+    "qwen": {
+      "name": "QWEN OCEAN",
+      "metrics": {
+        "accuracy": 0.775,
+        "precision": 0.23728813559322035,
+        "recall": 0.23728813559322035,
+        "f1": 0.23728813559322035,
+        "auc": 0.6078333913216363
+      },
+      "confusion_matrix": [
+        [
+          296,
+          45
+        ],
+        [
+          45,
+          14
+        ]
+      ]
+    },
+    "gemma": {
+      "name": "GEMMA OCEAN",
+      "metrics": {
+        "accuracy": 0.8,
+        "precision": 0.2765957446808511,
+        "recall": 0.22033898305084745,
+        "f1": 0.24528301886792453,
+        "auc": 0.5958546647447686
+      },
+      "confusion_matrix": [
+        [
+          307,
+          34
+        ],
+        [
+          46,
+          13
+        ]
+      ]
+    },
+    "deepseek": {
+      "name": "DEEPSEEK OCEAN",
+      "metrics": {
+        "accuracy": 0.775,
+        "precision": 0.23728813559322035,
+        "recall": 0.23728813559322035,
+        "f1": 0.23728813559322035,
+        "auc": 0.6078333913216363
+      },
+      "confusion_matrix": [
+        [
+          296,
+          45
+        ],
+        [
+          45,
+          14
+        ]
+      ]
+    }
+  },
+  "best_model": {
+    "name": "QWEN",
+    "auc": 0.6078333913216363,
+    "improvement_vs_baseline": 0.03782494159749494,
+    "improvement_percent": 6.6358562957795675
+  },
+  "statistical_test": {
+    "t_statistic": 6.810605360434066,
+    "p_value": 3.588961572623811e-11,
+    "significant": true
+  },
+  "comparison_table": [
+    {
+      "Model": "QWEN OCEAN",
+      "AUC": 0.6078333913216363,
+      "Accuracy": 0.775,
+      "Precision": 0.23728813559322035,
+      "Recall": 0.23728813559322035,
+      "F1": 0.23728813559322035,
+      "AUC_vs_Baseline": 0.03782494159749494,
+      "AUC_Improvement_%": 6.6358562957795675
+    },
+    {
+      "Model": "DEEPSEEK OCEAN",
+      "AUC": 0.6078333913216363,
+      "Accuracy": 0.775,
+      "Precision": 0.23728813559322035,
+      "Recall": 0.23728813559322035,
+      "F1": 0.23728813559322035,
+      "AUC_vs_Baseline": 0.03782494159749494,
+      "AUC_Improvement_%": 6.6358562957795675
+    },
+    {
+      "Model": "GPT OCEAN",
+      "AUC": 0.6044037974054377,
+      "Accuracy": 0.7975,
+      "Precision": 0.25,
+      "Recall": 0.1864406779661017,
+      "F1": 0.21359223300970873,
+      "AUC_vs_Baseline": 0.03439534768129637,
+      "AUC_Improvement_%": 6.0341820718521255
+    },
+    {
+      "Model": "GEMMA OCEAN",
+      "AUC": 0.5958546647447686,
+      "Accuracy": 0.8,
+      "Precision": 0.2765957446808511,
+      "Recall": 0.22033898305084745,
+      "F1": 0.24528301886792453,
+      "AUC_vs_Baseline": 0.025846215020627228,
+      "AUC_Improvement_%": 4.53435647017788
+    },
+    {
+      "Model": "LLAMA OCEAN",
+      "AUC": 0.574382424573786,
+      "Accuracy": 0.7975,
+      "Precision": 0.2708333333333333,
+      "Recall": 0.22033898305084745,
+      "F1": 0.24299065420560745,
+      "AUC_vs_Baseline": 0.004373974849644635,
+      "AUC_Improvement_%": 0.7673526334147229
+    },
+    {
+      "Model": "Baseline (No OCEAN)",
+      "AUC": 0.5700084497241413,
+      "Accuracy": 0.805,
+      "Precision": 0.28888888888888886,
+      "Recall": 0.22033898305084745,
+      "F1": 0.25,
+      "AUC_vs_Baseline": 0.0,
+      "AUC_Improvement_%": 0.0
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "phase": "05g - Sample 2K and Generate All OCEAN Features",
+  "timestamp": "2025-10-31T13:11:43.721884",
+  "data": {
+    "input_file": "../loan_final_desc50plus_with_ocean_bge.csv",
+    "input_size": 34529,
+    "sample_size": 2000,
+    "output_file": "../loan_2k_with_all_ocean.csv",
+    "n_features": 63
+  },
+  "method": {
+    "embedding_model": "BAAI/bge-large-en-v1.5",
+    "embedding_dim": 1024,
+    "llm_models": [
+      "llama",
+      "gpt",
+      "qwen",
+      "gemma",
+      "deepseek"
+    ],
+    "n_llm_models": 5,
+    "ocean_dimensions": [
+      "openness",
+      "conscientiousness",
+      "extraversion",
+      "agreeableness",
+      "neuroticism"
+    ],
+    "n_ocean_dimensions": 5
+  },
+  "ocean_features": {
+    "llama_openness": {
+      "mean": 0.34276301725720437,
+      "std": 0.0199349106252896,
+      "min": 0.2605071426203601,
+      "max": 0.4071548139901635,
+      "median": 0.34312993664279473
+    },
+    "llama_conscientiousness": {
+      "mean": 0.5816326530612244,
+      "std": 1.1105006845081086e-16,
+      "min": 0.5816326530612245,
+      "max": 0.5816326530612245,
+      "median": 0.5816326530612245
+    },
+    "llama_extraversion": {
+      "mean": 0.25642857142857134,
+      "std": 5.552503422540543e-17,
+      "min": 0.2564285714285714,
+      "max": 0.2564285714285714,
+      "median": 0.2564285714285714
+    },
+    "llama_agreeableness": {
+      "mean": 0.6051785714285713,
+      "std": 1.1105006845081086e-16,
+      "min": 0.6051785714285715,
+      "max": 0.6051785714285715,
+      "median": 0.6051785714285715
+    },
+    "llama_neuroticism": {
+      "mean": 0.17691326530612245,
+      "std": 0.0,
+      "min": 0.17691326530612245,
+      "max": 0.17691326530612245,
+      "median": 0.17691326530612245
+    },
+    "gpt_openness": {
+      "mean": 0.2614,
+      "std": 0.0,
+      "min": 0.2614,
+      "max": 0.2614,
+      "median": 0.2614
+    },
+    "gpt_conscientiousness": {
+      "mean": 0.7272250000000001,
+      "std": 1.1105006845081086e-16,
+      "min": 0.727225,
+      "max": 0.727225,
+      "median": 0.727225
+    },
+    "gpt_extraversion": {
+      "mean": 0.18442500000000003,
+      "std": 5.552503422540543e-17,
+      "min": 0.18442499999999998,
+      "max": 0.18442499999999998,
+      "median": 0.18442499999999998
+    },
+    "gpt_agreeableness": {
+      "mean": 0.4152750000000003,
+      "std": 2.221001369016217e-16,
+      "min": 0.41527500000000006,
+      "max": 0.41527500000000006,
+      "median": 0.41527500000000006
+    },
+    "gpt_neuroticism": {
+      "mean": 0.3246595188757701,
+      "std": 7.481406248988056e-05,
+      "min": 0.3243884493679415,
+      "max": 0.32494975548685046,
+      "median": 0.3246569203710329
+    },
+    "qwen_openness": {
+      "mean": 0.3380050505050504,
+      "std": 0.0,
+      "min": 0.3380050505050504,
+      "max": 0.3380050505050504,
+      "median": 0.3380050505050504
+    },
+    "qwen_conscientiousness": {
+      "mean": 0.690151515151515,
+      "std": 1.1105006845081086e-16,
+      "min": 0.6901515151515151,
+      "max": 0.6901515151515151,
+      "median": 0.6901515151515151
+    },
+    "qwen_extraversion": {
+      "mean": 0.4049242424242425,
+      "std": 1.1105006845081086e-16,
+      "min": 0.4049242424242424,
+      "max": 0.4049242424242424,
+      "median": 0.4049242424242424
+    },
+    "qwen_agreeableness": {
+      "mean": 0.5953282828282829,
+      "std": 0.0,
+      "min": 0.5953282828282829,
+      "max": 0.5953282828282829,
+      "median": 0.5953282828282829
+    },
+    "qwen_neuroticism": {
+      "mean": 0.4727272727272728,
+      "std": 5.552503422540543e-17,
+      "min": 0.4727272727272727,
+      "max": 0.4727272727272727,
+      "median": 0.4727272727272727
+    },
+    "gemma_openness": {
+      "mean": 0.2832499999999999,
+      "std": 1.1105006845081086e-16,
+      "min": 0.28325,
+      "max": 0.28325,
+      "median": 0.28325
+    },
+    "gemma_conscientiousness": {
+      "mean": 0.594625,
+      "std": 0.0,
+      "min": 0.594625,
+      "max": 0.594625,
+      "median": 0.594625
+    },
+    "gemma_extraversion": {
+      "mean": 0.27799999999999997,
+      "std": 0.0,
+      "min": 0.27799999999999997,
+      "max": 0.27799999999999997,
+      "median": 0.27799999999999997
+    },
+    "gemma_agreeableness": {
+      "mean": 0.5073749999999999,
+      "std": 1.1105006845081086e-16,
+      "min": 0.507375,
+      "max": 0.507375,
+      "median": 0.507375
+    },
+    "gemma_neuroticism": {
+      "mean": 0.20248331795880314,
+      "std": 0.0028815164879649148,
+      "min": 0.18945269330214184,
+      "max": 0.21195430782502925,
+      "median": 0.20262482366953907
+    },
+    "deepseek_openness": {
+      "mean": 0.29275,
+      "std": 0.0,
+      "min": 0.29275,
+      "max": 0.29275,
+      "median": 0.29275
+    },
+    "deepseek_conscientiousness": {
+      "mean": 0.7635,
+      "std": 0.0,
+      "min": 0.7635,
+      "max": 0.7635,
+      "median": 0.7635
+    },
+    "deepseek_extraversion": {
+      "mean": 0.2577500000000001,
+      "std": 5.552503422540543e-17,
+      "min": 0.25775000000000003,
+      "max": 0.25775000000000003,
+      "median": 0.25775000000000003
+    },
+    "deepseek_agreeableness": {
+      "mean": 0.4874999999999999,
+      "std": 1.1105006845081086e-16,
+      "min": 0.4875,
+      "max": 0.4875,
+      "median": 0.4875
+    },
+    "deepseek_neuroticism": {
+      "mean": 0.3819999999999999,
+      "std": 5.552503422540543e-17,
+      "min": 0.38199999999999995,
+      "max": 0.38199999999999995,
+      "median": 0.38199999999999995
+    }
+  },
+  "target_distribution": {
+    "fully_paid": 1707,
+    "charged_off": 293,
+    "default_rate": 0.1465
+  }
+}

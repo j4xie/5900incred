@@ -1,6 +1,6 @@
 {
   "phase": "05e - Extract BGE Embeddings",
-  "timestamp": "2025-10-27T13:45:13.651585",
+  "timestamp": "2025-10-29T18:11:39.357684",
   "total_samples": 500,
   "success_count": 500,
   "error_count": 0,
@@ -55,6 +55,6 @@
       "max": 0.9
     }
   },
-  "processing_time_seconds": 270.72578716278076,
-  "samples_per_second": 1.8468872331669028
+  "processing_time_seconds": 361.14296102523804,
+  "samples_per_second": 1.3844932726379737
 }
